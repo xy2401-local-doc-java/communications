@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Application Integration Architecture Oracle Communications Order to Cash Integration Pack Implementation Guide - Contents</title>
+<meta name="generator" content="Oracle DARB XHTML Converter (Mode = document) - Merged Version 1090" />
+<meta name="dcterms.created" content="2017-01-27T14:17:35Z" />
+<meta name="robots" content="all" />
+<meta name="dcterms.title" content="Application Integration Architecture Oracle Communications Order to Cash Integration Pack Implementation Guide" />
+<meta name="dcterms.identifier" content="E63490-01" />
+<meta name="dcterms.isVersionOf" content="PICOM" />
+<link rel="Start" href="../../index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="../../dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+
+<script type="application/javascript"   src="../../dcommon/js/headfoot.js"></script>
+<script type="application/javascript"   src="../../nav/js/doccd.js"></script>
+<link rel="Next" href="title.htm" title="Next" type="text/html" />
+<link rel="alternate" href="../e63490.pdf" title="PDF version" type="application/pdf" />
+<link rel="alternate" href="../E63490-01.epub" title="ePub version" type="application/epub+zip" />
+<link rel="alternate" href="../E63490-01.mobi" title="Mobipocket version" type="application/x-mobipocket-ebook" />
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<link rel="stylesheet" href="../../dcommon/css/fusiondoc.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/header.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/footer.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/fonts.css">
+<link rel="stylesheet" href="../../dcommon/css/foundation.css">
+<link rel="stylesheet" href="../../dcommon/css/codemirror.css">
+<link rel="stylesheet" type="text/css" title="Default" href="../../nav/css/html5.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-480-tablet.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-768-laptop.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-1140-deskop.css">
+<script type="application/javascript"  src="../../dcommon/js/modernizr.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/codemirror.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/jquery.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/foundation.min.js"></script>
+<script type="application/javascript"  src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552992c80ef99c8d" async="async"></script>
+<script type="application/javascript"  src="../../dcommon/js/jqfns.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/ohc-inline-videos.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="../../dcommon/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet"  href="../../dcommon/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet"  href="../../dcommon/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+<body>
+<a href="#BEGIN" class="accessibility-top skipto" tabindex="0">Go to main content</a>
+<header><!--
+<div class="zz-skip-header"><a id="top" href="#BEGIN">Go to main content</a>--></header>
+<div class="row" id="CONTENT">
+<div class="IND large-9 medium-8 columns" dir="ltr">
+<a id="BEGIN" name="BEGIN"></a>
+<span id="PAGE" style="display:none;">1/45</span> <!-- End Header -->
+<h1 class="toc">Contents</h1>
+<h2 class="tocheader"><a href="title.htm">Title and Copyright Information</a></h2>
+<h2 class="tocheader"><a href="preface.htm#sthref2">Preface</a></h2>
+<ul style="list-style-type:none">
+<li><a href="preface.htm#sthref3">Audience</a></li>
+<li><a href="preface.htm#sthref4">Accessing Oracle Documentation</a></li>
+<li><a href="preface.htm#sthref5">Documentation Accessibility</a></li>
+<li><a href="preface.htm#sthref7">Document Revision History</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_overview.htm#BABDHJCJ"><span class="secnum">1</span> Overview of the Oracle Communications Order to Cash Integration Pack</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#sthref8">About Oracle AIA and Oracle Communications Solutions Integrations</a></li>
+<li><a href="com_overview.htm#sthref9">Overview of the Oracle Communications Order to Cash Integration Pack</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#CEGJGJAA">About Using Third-Party Applications</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#sthref12">About the Test Orchestration Process</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_overview.htm#sthref13">About Oracle AIA in Product-Based Solutions</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#sthref14">About RODOD</a></li>
+<li><a href="com_overview.htm#sthref15">About RSDOD</a></li>
+<li><a href="com_overview.htm#sthref16">About Integrated RODOD and RSDOD Deployments</a></li>
+</ul>
+</li>
+<li><a href="com_overview.htm#sthref18">About the Process Integrations</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#CEGJBAAB">About Product Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#CJAEBGFF">Pricing Center and Pricing Design Center Terminology</a></li>
+</ul>
+</li>
+<li><a href="com_overview.htm#CEGBBFAA">About Order Lifecycle Management</a></li>
+<li><a href="com_overview.htm#CEGCIEED">About Customer Management</a></li>
+<li><a href="com_overview.htm#CEGBJEAE">About Order Fallout Management</a></li>
+</ul>
+</li>
+<li><a href="com_overview.htm#CJADHFJE">Example Order to Cash Business Scenarios</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#CJAFFHJC">Promotion Groups and Large Order Scenario</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#sthref25">Design Time</a></li>
+<li><a href="com_overview.htm#sthref26">Order Time</a></li>
+<li><a href="com_overview.htm#sthref27">More Information About Large Orders and Promotion Groups</a></li>
+</ul>
+</li>
+<li><a href="com_overview.htm#sthref28">Family Share Plan and Payment on Order Scenario</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#sthref29">Design Time</a></li>
+<li><a href="com_overview.htm#sthref30">Order Time</a></li>
+<li><a href="com_overview.htm#sthref31">More Information About Family Share Plans and Payments on Orders</a></li>
+</ul>
+</li>
+<li><a href="com_overview.htm#sthref32">Corporate Account Hierarchy Scenario and Split Billing Scenario</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#sthref33">Design Time</a></li>
+<li><a href="com_overview.htm#sthref34">Order Time</a></li>
+<li><a href="com_overview.htm#sthref35">More Information About Corporate Hierarchies and Split Billing</a></li>
+</ul>
+</li>
+<li><a href="com_overview.htm#sthref36">Legal Owner and Split Billing Scenario</a>
+<ul style="list-style-type:none">
+<li><a href="com_overview.htm#sthref37">Design Time</a></li>
+<li><a href="com_overview.htm#sthref38">Order Time</a></li>
+<li><a href="com_overview.htm#sthref40">More Information About Legal Owners and Split Billing</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_overview.htm#sthref41">Directory Placeholders Used in This Guide</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_part_understand.htm#sthref43">Part I Understanding the Process Integrations</a></h2>
+<h2 class="tocheader"><a href="com_plm_overview.htm#CEGECCIF"><span class="secnum">2</span> Understanding the Process Integration for Product Lifecycle Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_plm_overview.htm#CEGCHCBI">About the Process Integration for Product Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_overview.htm#sthref44">About the Synchronize Product and Price Business Flow</a></li>
+<li><a href="com_plm_overview.htm#sthref45">About the Query Product Classes Business Flow</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_plm_pp.htm#CACGABAF"><span class="secnum">3</span> Understanding the Synchronize Product and Price Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CACGBGHA">About the Synchronize Product and Price Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#Toc194375557">About Synchronizing Pricing Components</a></li>
+<li><a href="com_plm_pp.htm#Toc194375558">About Synchronizing Updates to Pricing Components</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#Toc194375561">About the Pricing Component Synchronization Integration Flows</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CACIAJCF">About the Product Synchronization Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#sthref48">About Unspecified Effective Start and End Dates</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#Toc194375565">About the Discount Synchronization Integration Flow</a></li>
+<li><a href="com_plm_pp.htm#sthref49">About the Chargeshare Synchronization Integration Flow</a></li>
+<li><a href="com_plm_pp.htm#sthref50">About Synchronizing Product Usage Charges</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#BABCAHJJ">About Price Lists and Rate Plans</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CHDDDHIG">Working with Price Lists and Rate Plans at Design Time</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CHDFFFII">Associating Rate Plans in BRM with Price Lists</a></li>
+<li><a href="com_plm_pp.htm#sthref53">Rate Plan Example: Multiple Lines of Business and Regions</a></li>
+<li><a href="com_plm_pp.htm#CHDFEHAG">Offering a Product in Multiple Currencies</a></li>
+<li><a href="com_plm_pp.htm#sthref56">Rate Plan Example: Multiple Currencies</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#BABGIEEB">Managing Pricing in Rate Plans and Price Lists</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#sthref58">Changing the Price of a Product</a></li>
+<li><a href="com_plm_pp.htm#sthref61">Changing the Price List of a Product</a></li>
+<li><a href="com_plm_pp.htm#sthref63">Changing from Multiple Price Lists to the Default Price List</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#Toc194375578">About BRM Balance Groups</a></li>
+<li><a href="com_plm_pp.htm#CACCGHBC">Understanding Product Bundling</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#Toc194375571">Basic Entity Mappings</a></li>
+<li><a href="com_plm_pp.htm#Toc194375572">Defining Products and Discounts in BRM</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CACDFDIF">Using Fixed Amounts or Scaled Amounts in BRM</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#Toc194375573">About Creating Physical Goods</a></li>
+<li><a href="com_plm_pp.htm#Toc285544208">About Adding Products to Siebel CRM Sales Catalogs</a></li>
+<li><a href="com_plm_pp.htm#Toc285544209">Recommendations for Product Definition in Siebel CRM</a></li>
+<li><a href="com_plm_pp.htm#sthref68">Recommendation for Discounts</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#sthref69">Discounts Defined in BRM</a></li>
+<li><a href="com_plm_pp.htm#sthref70">Discounts Defined in Siebel CRM</a></li>
+<li><a href="com_plm_pp.htm#CHDBIIDJ">Defining Overrides on the Product Definition</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#Toc199918871">About Service Bundles</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#BABHBBJE">About Billing Service Types for Service Bundles</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#CACFJIBG">About Simple Service Bundles</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#sthref72">Flagging Subscription Products as Simple Service Bundles</a></li>
+<li><a href="com_plm_pp.htm#sthref73">Example of Using a Service Bundle or a Simple Service Bundle</a></li>
+<li><a href="com_plm_pp.htm#CACBHAGJ">Assumptions and Constraints for Working with Simple Service Bundles</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#CHDHAIDB">About Service Grouping</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CHDJIBIJ">Enabling Service Grouping at Design Time</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#CHDGFFIC">About Promotion Groups</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#sthref76">Creating Promotion Groups</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#CHDEEBJE">About Family Share Plans</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#sthref78">Creating Family Share Plans</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#Toc194375577">About Marketing Bundles</a></li>
+<li><a href="com_plm_pp.htm#Toc194375579">About Credit Limits</a></li>
+<li><a href="com_plm_pp.htm#Toc194375580">About One-Time Charges for Activating and Changing Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CHDDGJFD">Charging for Service Activation and Changes to Promotions and Services</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#CACBGFAI">About Friends and Family Lists</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CHDHJEFH">Enabling Friends and Family Lists</a></li>
+<li><a href="com_plm_pp.htm#CACHCAJA">Product Definition Methodology for Friends and Family Lists: Example</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#CACDDGCC">About Time-Based Offerings</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp.htm#CHDHIHJC">Setting Up Time-Based Offerings</a></li>
+<li><a href="com_plm_pp.htm#sthref87">Managing Expired Time-Based Offerings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_plm_pp.htm#Toc194375566">Assumptions and Constraints for the Synchronize Product and Price Business Flow</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_plm_pp_sync.htm#Toc259974068"><span class="secnum">4</span> Implementing the Synchronize Product and Price Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp_sync.htm#CHDECGGF">About the Synchronize Product and Price Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp_sync.htm#CHDIDBDB">About the Product Synchronization Integration Flow</a></li>
+<li><a href="com_plm_pp_sync.htm#CHDCAAHB">About the Discount Synchronization Integration Flow</a></li>
+<li><a href="com_plm_pp_sync.htm#sthref88">About the Chargeshare Synchronization Integration Flow</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp_sync.htm#Toc224360935">BRM Interfaces</a></li>
+<li><a href="com_plm_pp_sync.htm#Toc224360936">Siebel CRM Interfaces</a></li>
+<li><a href="com_plm_pp_sync.htm#Toc194375588">Industry Oracle AIA Components</a></li>
+<li><a href="com_plm_pp_sync.htm#Toc224360938">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp_sync.htm#CIHDAJJD">SyncProductBRMCommsReqABCSImpl</a></li>
+<li><a href="com_plm_pp_sync.htm#CIHBGBHC">SyncDiscountBRMCommsReqABCSImpl</a></li>
+<li><a href="com_plm_pp_sync.htm#CIHFJIID">SyncSponsorshipBRMCommsReqABCSImpl</a></li>
+<li><a href="com_plm_pp_sync.htm#CIHHAHGJ">CommunicationsItemCompositionEBSV1</a></li>
+<li><a href="com_plm_pp_sync.htm#CIHCJBEH">SyncItemCompositionListSiebelCommsJMSConsumer</a></li>
+<li><a href="com_plm_pp_sync.htm#CIHJGFAE">SyncItemCompositionListSiebelCommsProvABCSImpl</a></li>
+<li><a href="com_plm_pp_sync.htm#CIHCCFIB">CommunicationsPriceListEBSV2</a></li>
+<li><a href="com_plm_pp_sync.htm#CIHBHBEI">ProductOptimizedSyncPriceListListSiebelCommsJMSConsumer</a></li>
+<li><a href="com_plm_pp_sync.htm#CIHBHCCE">ProductOptimizedSyncPriceListListSiebelCommsProvABCSImpl</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_plm_pp_query_flow.htm#CIHCEDJD"><span class="secnum">5</span> Understanding the Query Product Classes Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp_query_flow.htm#sthref89">About the Query Product Classes Business Flow</a></li>
+<li><a href="com_plm_pp_query_flow.htm#CHDFBCEH">About the Query Product Classes Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp_query_flow.htm#sthref90">About the Logical Data Model in Siebel CRM</a></li>
+<li><a href="com_plm_pp_query_flow.htm#sthref91">About Updating the Attribute Valueset</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp_query_flow.htm#CHDFIFHA">Updating Product Classes and Effectivity</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_plm_pp_query_impl.htm#Toc259974071"><span class="secnum">6</span> Implementing the Query Product Classes Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp_query_impl.htm#CACDBJGG">About the Query Product Classes Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp_query_impl.htm#CACEICGC">About the Query Product Classes Integration Flow</a></li>
+</ul>
+</li>
+<li><a href="com_plm_pp_query_impl.htm#Toc259974074">Siebel CRM Interfaces</a></li>
+<li><a href="com_plm_pp_query_impl.htm#Toc259974075">Industry Oracle AIA Components</a></li>
+<li><a href="com_plm_pp_query_impl.htm#Toc259974076">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_pp_query_impl.htm#sthref92">QueryProdClassAndAttributesSCEReqCommsABCSImpl</a></li>
+<li><a href="com_plm_pp_query_impl.htm#sthref93">QueryClassificationListSiebelCommsProvABCSImpl</a></li>
+<li><a href="com_plm_pp_query_impl.htm#sthref94">QuerySpecificationListSiebelCommsProvABCSImpl</a></li>
+<li><a href="com_plm_pp_query_impl.htm#sthref95">QuerySpecificationValueSetListSiebelCommsProvABCSImpl</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_overview.htm#BABBEFGF"><span class="secnum">7</span> Understanding the Process Integration for Order Lifecycle Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_overview.htm#BABEACGG">About the Process Integration for Order Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_overview.htm#sthref96">About Order Lifecycle Attributes</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_overview.htm#sthref97">About the OrderSubject Attribute</a></li>
+<li><a href="com_olm_overview.htm#sthref99">About the ServiceFamily Attribute</a></li>
+<li><a href="com_olm_overview.htm#sthref100">About the TechnicalInventoryId Attribute</a></li>
+</ul>
+</li>
+<li><a href="com_olm_overview.htm#sthref102">About the Order Lifecycle Management Business Flows</a></li>
+</ul>
+</li>
+<li><a href="com_olm_overview.htm#BABGBCAB">About Order Capture</a></li>
+<li><a href="com_olm_overview.htm#Toc232490083">About the Deliver Customer Order Subflow</a></li>
+<li><a href="com_olm_overview.htm#Toc232490084">About the Qualify Customer Order Subflow</a></li>
+<li><a href="com_olm_overview.htm#Toc232426607">Product Definition and Mapping Design Considerations</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_overview.htm#sthref103">About Defining Products</a></li>
+<li><a href="com_olm_overview.htm#sthref105">About Mapping Orders to Fulfillment Functions</a></li>
+</ul>
+</li>
+<li><a href="com_olm_overview.htm#BABIAHFC">Data Requirements for Integrated Order Lifecycle Management</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_salesorder.htm#CCHHGBDJ"><span class="secnum">8</span> Understanding the Process Sales Order Fulfillment Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#BDJCEJAH">About the Process Sales Order Fulfillment Business Flow</a></li>
+<li><a href="com_olm_salesorder.htm#BABCBICI">About Sales Orders</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#sthref107">About Change Orders</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#BABHJGIE">About Supplemental Orders</a></li>
+<li><a href="com_olm_salesorder.htm#BABHABBJ">About Follow-On Orders</a></li>
+<li><a href="com_olm_salesorder.htm#sthref108">About Modify Orders</a></li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder.htm#Toc256765685">About Future-Dated Orders</a></li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder.htm#CHDDJFEI">Supporting Large Orders</a></li>
+<li><a href="com_olm_salesorder.htm#CHDJEEJF">About Accepting Payments on Orders</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#sthref110">Accepting Payments on Change Orders</a></li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder.htm#BABEFJDJ">Supporting Multiple Price Lists on Orders</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#BABGEDJA">Specifying Different Price Lists on New Orders</a></li>
+<li><a href="com_olm_salesorder.htm#sthref112">Changing Price Lists on Supplemental Orders</a></li>
+<li><a href="com_olm_salesorder.htm#sthref114">Changing Price Lists on Modify Orders</a></li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder.htm#CHDFJFFG">Supporting Promotion Groups on Orders</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#sthref117">Using Change Orders with Promotion Groups</a></li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder.htm#CHDDIBCB">Supporting Family Share Plans on Orders</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#sthref119">Using Change Orders with Family Share Plans</a></li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder.htm#BDJFGECC">Supporting Order Priority</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#sthref120">About Order Priority in Siebel CRM</a></li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder.htm#CHDFHCJB">Supporting Split Billing on Orders</a></li>
+<li><a href="com_olm_salesorder.htm#CHDFAJBF">Supporting Corporate Account Hierarchies on Orders</a></li>
+<li><a href="com_olm_salesorder.htm#CHDHFBGC">Supporting Legal Owners on Orders</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder.htm#sthref122">Supporting Legal Owners and Split Billing On Orders</a></li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder.htm#BDJFHHCA">Assumptions and Constraints for the Process Sales Order Fulfillment Business Flow</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_salesorder_impl.htm#BHBCFJHI"><span class="secnum">9</span> Implementing the Process Sales Order Fulfillment Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder_impl.htm#BHBICEBB">About the Process Sales Order Fulfillment Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder_impl.htm#BHBJGHGG">About the Submitting Orders from Siebel CRM to OSM Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder_impl.htm#BABBHDHF">Defining Transaction Boundaries and Recovery Details</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_olm_salesorder_impl.htm#BABGBCID">Supporting Order Priority</a></li>
+<li><a href="com_olm_salesorder_impl.htm#CHDDBCHA">Supporting Price Lists</a></li>
+<li><a href="com_olm_salesorder_impl.htm#BHBJACBJ">Siebel CRM Interfaces</a></li>
+<li><a href="com_olm_salesorder_impl.htm#BHBBCIED">Industry Oracle AIA Components</a></li>
+<li><a href="com_olm_salesorder_impl.htm#BHBIHECE">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_salesorder_impl.htm#BABHGJAJ">ProcessSalesOrderFulfillmentSiebelCommsJMSConsumer</a></li>
+<li><a href="com_olm_salesorder_impl.htm#CIHICHFF">ProcessSalesOrderFulfillmentSiebelCommsReqABCSImpl</a></li>
+<li><a href="com_olm_salesorder_impl.htm#BABDEHEA">ProcessSalesOrderFulfillmentOSMCFSCommsJMSProducer</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_synccustbill.htm#BABGCBEB"><span class="secnum">10</span> Understanding the Synchronize Fulfillment Order Billing Account Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_synccustbill.htm#IFHEIEFA">About the Synchronize Fulfillment Order Billing Account Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_synccustbill.htm#sthref126">About the Interfacing Orders to Create Customer Data Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_synccustbill.htm#sthref127">About Creating Account, Billing, and Corporate Hierarchies in BRM</a></li>
+</ul>
+</li>
+<li><a href="com_olm_synccustbill.htm#sthref128">About the Payment on Order Integration Flow</a></li>
+</ul>
+</li>
+<li><a href="com_olm_synccustbill.htm#IFHJIAGH">Assumptions and Constraints for the Synchronize Fulfillment Order Billing Account Business Flow</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_synccustbill_impl.htm#BHBJGHHD"><span class="secnum">11</span> Implementing the Synchronize Fulfillment Order Billing Account Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_synccustbill_impl.htm#BHBBGBAA">About the Synchronize Fulfillment Order Billing Account Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_synccustbill_impl.htm#sthref130">About the Interfacing Orders to Create Customer Data Integration Flow</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#CIHDHCCA">About the Payment on Order Integration Flow</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#CHDHCBEE">Defining Transaction Boundaries and Recovery Details</a></li>
+</ul>
+</li>
+<li><a href="com_olm_synccustbill_impl.htm#BHBJJEAF">BRM Interfaces</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#sthref134">Siebel CRM Interfaces</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#BHBGDDGJ">Industry Oracle AIA Components</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#BHBGEDBC">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_synccustbill_impl.htm#BABEJJGD">ProcessFulfillmentOrderBillingAccountListOSMCFSCommsJMSConsumer</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#BABIAFEF">ProcessFulfillmentOrderBillingAccountListSiebelCommsJMSConsumer</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#BABJFIAE">CommsProcessFulfillmentOrderBillingAccountListEBF</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#BHBHAHDI">QueryReceivedPaymentListSiebelCommsProvABCSImpl</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#BHBGEAEI">CreateReceivedPaymentListBRMCommsProvABCSImpl</a></li>
+<li><a href="com_olm_synccustbill_impl.htm#BHBEAIHH">ProcessFulfillmentOrderBillingAccountListResponseOSMCFSCommsJMSProducer</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_billorder.htm#BGBIDBEJ"><span class="secnum">12</span> Understanding the Bill Fulfillment Order Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#BGBEFCJB">Overview of the Bill Fulfillment Order Business Flow</a></li>
+<li><a href="com_olm_billorder.htm#BGBEJDIB">About Interfacing Orders to BRM</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#sthref135">Creating and Updating Service Instances</a></li>
+<li><a href="com_olm_billorder.htm#sthref136">Sending Pricing Information</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#sthref137">Applying One-time and Penalty Charges</a></li>
+<li><a href="com_olm_billorder.htm#sthref138">Applying Pricing or Discount Overrides</a></li>
+<li><a href="com_olm_billorder.htm#sthref139">Sending Price List Information</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#sthref140">Using Service Identifiers</a></li>
+<li><a href="com_olm_billorder.htm#sthref141">Communicating Promotion Information</a></li>
+<li><a href="com_olm_billorder.htm#sthref142">Rolling Back Transactions</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#CCHEBBDF">Supporting Balance Groups</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#CCHFCFEH">Disabling Service-Level Balance Groups</a></li>
+<li><a href="com_olm_billorder.htm#CCHFHDIB">Working with Service-Level Balance Groups Enabled</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#sthref143">About Tracking and Billing Services with Service-Level Balance Groups Enabled</a></li>
+<li><a href="com_olm_billorder.htm#CCHBGGAC">About Transferring Services in Siebel CRM</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#CCHDJCBJ">Working with Service-Level Balance Groups Disabled</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#BGBICFBG">Supporting Product Bundling</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#BABDIIEA">Examples of Mapping for Bundled Products</a></li>
+<li><a href="com_olm_billorder.htm#CCHHDEBG">Synchronizing Simple Service Bundles</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#sthref149">Changing Purchased Simple Service Bundles</a></li>
+<li><a href="com_olm_billorder.htm#BEEGCAFH">Simple Service Bundle Cross-References Entries</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#BABJAIID">Synchronizing Promotion Groups</a></li>
+<li><a href="com_olm_billorder.htm#BABGHCDA">Synchronizing Family Share Plans</a></li>
+<li><a href="com_olm_billorder.htm#BABHFCEH">Synchronizing Service Grouping</a></li>
+<li><a href="com_olm_billorder.htm#BEEDGFFG">Supporting Single-Phase and Two-Phase Billing</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#sthref154">Choosing Between Single-Phase and Two-Phase Billing</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#sthref155">Single-Phase Billing</a></li>
+<li><a href="com_olm_billorder.htm#sthref156">Two-Phase Billing</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#BGBDGIEB">Using Single-Phase Billing or Two-Phase Billing</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#sthref157">INITIATE BILLING Mode</a></li>
+<li><a href="com_olm_billorder.htm#sthref158">FULFILL BILLING Mode</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#sthref159">Assumptions and Constraints for Two-Phase Billing</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#BGBDGBAF">Supporting Revisions</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#sthref161">Assumptions and Constraints for Revisions</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#BGBJGFHH">Supporting Time-Based Offerings on Orders</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#CCHJIFHD">Supporting Time-Based Offerings on New Orders</a></li>
+<li><a href="com_olm_billorder.htm#CCHBIJAE">Supporting Time-Based Offerings on Change Orders</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#BGBBEBFH">Supporting Friends and Family Lists</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder.htm#BGBCDGEA">Using Change Orders with Special Rating Products</a></li>
+</ul>
+</li>
+<li><a href="com_olm_billorder.htm#BABEADEH">Supporting Split Billing</a></li>
+<li><a href="com_olm_billorder.htm#BGBHCGGE">Assumptions and Constraints for the Bill Fulfillment Order Business Flow</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_billorder_impl.htm#BHBEGJJE"><span class="secnum">13</span> Implementing the Bill Fulfillment Order Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder_impl.htm#Toc194311861">About the Bill Fulfillment Order Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder_impl.htm#sthref162">About the Interfacing Orders to Create Transaction Data in BRM Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder_impl.htm#CHDDGJFB">Defining Transaction Boundaries and Recovery Details</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_olm_billorder_impl.htm#BHBHIBCG">BRM Interfaces</a></li>
+<li><a href="com_olm_billorder_impl.htm#BHBHAHAD">Industry Oracle AIA Components</a></li>
+<li><a href="com_olm_billorder_impl.htm#BHBDCIFB">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_billorder_impl.htm#BHBBDCFH">ProcessFulfillmentOrderBillingOSMCFSCommsJMSConsumer</a></li>
+<li><a href="com_olm_billorder_impl.htm#CHDBEBBH">ProcessFulfillmentOrderBillingBRMCommsProvABCSImpl</a></li>
+<li><a href="com_olm_billorder_impl.htm#FJCIAIFE">ProcessFulfillmentOrderBillingBRMCommsAddSubProcess</a></li>
+<li><a href="com_olm_billorder_impl.htm#FJCGAIBG">ProcessFulfillmentOrderBillingBRMCommsMoveAddSubProcess</a></li>
+<li><a href="com_olm_billorder_impl.htm#CHDCBDGA">ProcessFulfillmentOrderBillingBRMCommsSuspendResumeSubProcess</a></li>
+<li><a href="com_olm_billorder_impl.htm#BABDEJDE">ProcessFulfillmentOrderBillingBRMCommsUpdateSubProcess</a></li>
+<li><a href="com_olm_billorder_impl.htm#CHDFDADD">ProcessFulfillmentOrderBillingBRMCommsDeleteSubProcess</a></li>
+<li><a href="com_olm_billorder_impl.htm#CHDBFGHF">ProcessFulfillmentOrderBillingBRMCommsSharingGroupSubProcess</a></li>
+<li><a href="com_olm_billorder_impl.htm#BHBCGIHE">ProcessFulfillmentOrderBillingResponseOSMCFSCommsJMSProducer</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_provision.htm#CACFDJHI"><span class="secnum">14</span> Understanding the Provision Order and Update Fulfillment Order Business Flows</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_provision.htm#CACFFDHI">About Order Provisioning</a></li>
+<li><a href="com_olm_provision.htm#CACIJEIE">About the Provision Order Business Flow</a></li>
+<li><a href="com_olm_provision.htm#CACJHEHJ">About the Update Fulfillment Order Business Flow</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_provision_impl.htm#CHDGDFGG"><span class="secnum">15</span> Implementing the Provision Order and Update Fulfillment Order Business Flows</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_provision_impl.htm#CHDEHIBI">About the Provision Order and Update Fulfillment Order Business Flows</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_provision_impl.htm#CHDJHIIH">About the OSM Fulfillment to OSM Provisioning Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_provision_impl.htm#CHDIAFFJ">Defining Transaction Boundaries and Recovery Details</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_olm_provision_impl.htm#Toc194311755">Industry Oracle AIA Components</a></li>
+<li><a href="com_olm_provision_impl.htm#Toc259974098">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_provision_impl.htm#sthref166">ProcessProvisioningOrderOSMCFSCommsJMSConsumer</a></li>
+<li><a href="com_olm_provision_impl.htm#sthref167">ProcessProvisioningOrderOSMPROVCommsJMSProducer</a></li>
+<li><a href="com_olm_provision_impl.htm#sthref168">ProcessFulfillmentOrderUpdateOSMPROVCommsJMSConsumer</a></li>
+<li><a href="com_olm_provision_impl.htm#sthref169">ProcessFulfillmentOrderUpdateOSMCFSCommsJMSProducer</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_so_update.htm#BABHECCE"><span class="secnum">16</span> Understanding the Update Sales Order Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_so_update.htm#BDHIBFEJ">About the Update Sales Order Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_so_update.htm#sthref170">About Updating Sales Order Data</a></li>
+<li><a href="com_olm_so_update.htm#BDHEAHCF">About Updating Sales Order Status</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_so_update_impl.htm#CIHEFEGI"><span class="secnum">17</span> Implementing the Update Sales Order Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_so_update_impl.htm#CIHECGJG">About the Update Sales Order Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_so_update_impl.htm#CIHIEHHC">About the Updating Statuses from OSM to Siebel CRM Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_so_update_impl.htm#BABCGIDD">Defining Transaction Boundaries and Recovery Details</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_olm_so_update_impl.htm#CIHEEDJD">Siebel CRM Interfaces</a></li>
+<li><a href="com_olm_so_update_impl.htm#CIHDAJIC">Industry Oracle AIA Components</a></li>
+<li><a href="com_olm_so_update_impl.htm#CIHBBFIA">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_so_update_impl.htm#Toc256765714">UpdateSalesOrderOSMCFSCommsJMSConsumer</a></li>
+<li><a href="com_olm_so_update_impl.htm#sthref173">UpdateSalesOrderSiebelCommsJMSConsumer</a></li>
+<li><a href="com_olm_so_update_impl.htm#sthref174">UpdateSalesOrderSiebelCommsProvABCSImpl</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_cm_overview.htm#CJAGFBCG"><span class="secnum">18</span> Understanding the Process Integration for Customer Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#Toc226880864">About the Process Integration for Customer Management</a></li>
+<li><a href="com_cm_overview.htm#CJAECACC">About the Synchronize Customer Account Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#CJAIIEDE">About the Create/Sync Customer Account Integration Flow</a></li>
+<li><a href="com_cm_overview.htm#BABFFIHI">About the Update Customer Account Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#CJAFAIAD">About Account Status Synchronization</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_cm_overview.htm#Toc243998719">About the Synchronize Customer Special Rating Profile Business Flow</a></li>
+<li><a href="com_cm_overview.htm#Toc243998721">Data Requirements</a></li>
+<li><a href="com_cm_overview.htm#sthref178">About Synchronizing Accounts to Multiple BRM Instances</a></li>
+<li><a href="com_cm_overview.htm#CEGICDCJ">About Account and Billing Hierarchies</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#sthref179">About Account Hierarchies</a></li>
+<li><a href="com_cm_overview.htm#sthref180">About Billing Hierarchies</a></li>
+</ul>
+</li>
+<li><a href="com_cm_overview.htm#CEGCCAAD">About Corporate Account Hierarchies</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#CEGJGBAJ">Enabling and Disabling Corporate Account Hierarchy Synchronization</a></li>
+<li><a href="com_cm_overview.htm#sthref181">Creating Corporate Account Hierarchies</a></li>
+<li><a href="com_cm_overview.htm#CEGBCBEE">Synchronizing Corporate Account Hierarchies to BRM</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#sthref183">Synchronizing Hierarchies for New Corporate Accounts</a></li>
+<li><a href="com_cm_overview.htm#sthref185">Synchronizing Hierarchies for Existing Corporate Accounts</a></li>
+</ul>
+</li>
+<li><a href="com_cm_overview.htm#sthref186">Updating Corporate Account Hierarchies</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#sthref187">Adding Accounts to Existing Corporate Account Hierarchies</a></li>
+<li><a href="com_cm_overview.htm#sthref190">Removing Accounts from Corporate Account Hierarchies</a></li>
+<li><a href="com_cm_overview.htm#sthref191">Moving Accounts to Different Corporate Account Hierarchies</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_cm_overview.htm#CEGJGEJH">About Legal Hierarchies</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#CEGJEJFA">Enabling and Disabling Legal Hierarchy Synchronization</a></li>
+<li><a href="com_cm_overview.htm#sthref192">Creating and Synchronizing Legal Hierarchies</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#sthref193">Example of Legal Hierarchies</a></li>
+</ul>
+</li>
+<li><a href="com_cm_overview.htm#sthref196">Updating Legal Hierarchies</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_overview.htm#CEGHJHHB">Adding New Members to Legal Hierarchies</a></li>
+<li><a href="com_cm_overview.htm#CEGCEAFD">Changing the Legal Owner of a Child Account</a></li>
+<li><a href="com_cm_overview.htm#CEGJCFFI">Removing the Legal Owner from a Child Account</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_cm_create_accts.htm#Toc194285661"><span class="secnum">19</span> Implementing the Synchronize Customer Account Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_cm_create_accts.htm#sthref199">About the Synchronize Customer Account Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_create_accts.htm#CIHEHDIA">About the Create/Sync Customer Account Integration Flow</a></li>
+<li><a href="com_cm_create_accts.htm#CIHEABBD">About the Update Customer Account Integration Flow</a></li>
+</ul>
+</li>
+<li><a href="com_cm_create_accts.htm#Toc194285665">BRM Interfaces</a></li>
+<li><a href="com_cm_create_accts.htm#Toc194285666">Siebel CRM Interfaces</a></li>
+<li><a href="com_cm_create_accts.htm#Toc194285667">Industry Oracle AIA Components</a></li>
+<li><a href="com_cm_create_accts.htm#Toc226880872">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_create_accts.htm#BABCABEB">CommsProcessBillingAccountListEBF</a></li>
+<li><a href="com_cm_create_accts.htm#CIHGIDAC">CommunicationsCustomerPartyEBSV2Resequencer</a></li>
+<li><a href="com_cm_create_accts.htm#CIHGHGHE">SyncCustomerPartyListBRMCommsProvABCSImpl</a></li>
+<li><a href="com_cm_create_accts.htm#CIHJADAB">SyncCustomerPartyListBRMCommsJMSProducer</a></li>
+<li><a href="com_cm_create_accts.htm#BABCHCGD">SyncCustomerPartyListBRM_01CommsJMSConsumer</a></li>
+<li><a href="com_cm_create_accts.htm#BABEBEIA">CustomerPartyEBSV2</a></li>
+<li><a href="com_cm_create_accts.htm#BABFHJDJ">ProcessCollectionSharingBRMCommsProvABCSImpl</a></li>
+<li><a href="com_cm_create_accts.htm#CIHCEEEE">ProcessAccountHierarchyListSiebelCommsProvABCSImpl</a></li>
+<li><a href="com_cm_create_accts.htm#CIHECDGF">QueryCustomerPartyListSiebelProvABCSImplV2</a></li>
+<li><a href="com_cm_create_accts.htm#BABICJIG">SyncCustomerSiebelEventAggregator</a></li>
+<li><a href="com_cm_create_accts.htm#BABFFCFF">SyncAccountSiebelAggregatorAdapter</a></li>
+<li><a href="com_cm_create_accts.htm#BABDJGBD">SyncContactSiebelAggregatorAdapter</a></li>
+<li><a href="com_cm_create_accts.htm#BABFBAJA">SyncAddressSiebelAggregatorAdapter</a></li>
+<li><a href="com_cm_create_accts.htm#BABHGAAE">SyncBPSiebelAggregatorAdapter</a></li>
+<li><a href="com_cm_create_accts.htm#BABBDJJI">SyncAcctSiebelAggrEventConsumer</a></li>
+<li><a href="com_cm_create_accts.htm#BABEHEHD">SyncAccountSiebelReqABCSImpl</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_cm_create_spec_impl.htm#CIAJGACB"><span class="secnum">20</span> Implementing the Synchronize Customer Special Rating Profile Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_cm_create_spec_impl.htm#sthref204">Overview of the Synchronize Customer Special Rating Profile Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_create_spec_impl.htm#CHDCHAAG">Synchronize Friends and Family List Updates to BRM Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_create_spec_impl.htm#BABJJEGG">Defining Transaction Boundaries and Recovery Details</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_cm_create_spec_impl.htm#CHDEIHIG">BRM Interfaces</a></li>
+<li><a href="com_cm_create_spec_impl.htm#CHDBBHFE">Siebel CRM Interfaces</a></li>
+<li><a href="com_cm_create_spec_impl.htm#CHDHHEIC">Industry Oracle AIA Components</a></li>
+<li><a href="com_cm_create_spec_impl.htm#CHDGBFAG">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_create_spec_impl.htm#sthref206">ProcessInstalledProductSpecialRatingSetListSiebelCommsJMSConsumer</a></li>
+<li><a href="com_cm_create_spec_impl.htm#sthref207">ProcessInstalledProductSpecialRatingSetListSiebelCommsReqABCSImpl</a></li>
+<li><a href="com_cm_create_spec_impl.htm#sthref208">ProcessInstalledProductSpecialRatingSetListBRMCommsProvABCSImpl</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_ofm_overview.htm#CEGEBEAF"><span class="secnum">21</span> Understanding the Process Integration for Order Fallout Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_overview.htm#CEGHHFJF">About the Process Integration for Order Fallout Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_overview.htm#CEGIBEGC">About the Order Fallout Management Business Flows</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_overview.htm#CJACDFIA">About the Create Trouble Ticket from Oracle AIA Business Flow</a></li>
+<li><a href="com_ofm_overview.htm#CJAIBFBI">About the Create and Manage Trouble Ticket from OSM Business Flow</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_ofm_overview.htm#sthref209">About Order Fallout Management for Different Error Types</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_overview.htm#BABFAJFI">About Order Fallout Management for System Errors</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_overview.htm#CJAIFAAD">Reactivating Retired Consumer Services</a></li>
+<li><a href="com_ofm_overview.htm#CJAEBAGA">Disabling Consumer Service Retirement</a></li>
+</ul>
+</li>
+<li><a href="com_ofm_overview.htm#BABFJCHB">About Order Fallout Management for Business Errors</a></li>
+<li><a href="com_ofm_overview.htm#CJACBHIH">About Order Fallout Management for Service Errors</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_overview.htm#BABHJEBC">About Order Fallout Detection</a></li>
+<li><a href="com_ofm_overview.htm#BABDGCCE">About Order Fallout Notification</a></li>
+<li><a href="com_ofm_overview.htm#BABJCHBA">About Order Correction</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_ofm_overview.htm#CEGFAJJI">How Oracle AIA Error Handling Framework Captures Faults</a></li>
+<li><a href="com_ofm_overview.htm#CEGJCJEA">Extending Fault Messages to Capture Order Fallout Information</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_overview.htm#sthref215">Exception Handling</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_ofm_createticket_impl.htm#CHDHCFCB"><span class="secnum">22</span> Implementing the Create Trouble Ticket from Oracle AIA Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_createticket_impl.htm#Toc236556320">Create Trouble Ticket from Oracle AIA Business Flow Overview</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_createticket_impl.htm#CHDBIJEC">Creating a Trouble Ticket in Siebel CRM Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_createticket_impl.htm#CHDECJAF">Defining Transaction Boundaries and Recovery Details</a></li>
+<li><a href="com_ofm_createticket_impl.htm#sthref217">Exception Handling</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_ofm_createticket_impl.htm#Toc243998742">Siebel CRM Interfaces</a></li>
+<li><a href="com_ofm_createticket_impl.htm#Toc285544284">Industry Oracle AIA Components</a></li>
+<li><a href="com_ofm_createticket_impl.htm#Toc216670069">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_createticket_impl.htm#sthref218">CreateTroubleTicketSiebelCommsProvABCSImpl</a></li>
+<li><a href="com_ofm_createticket_impl.htm#sthref219">AIAOrderFalloutJMSBridgeService</a></li>
+<li><a href="com_ofm_createticket_impl.htm#sthref220">AIACOMOrderFalloutNotificationJMSConsumer</a></li>
+<li><a href="com_ofm_createticket_impl.htm#sthref221">CreateTroubleTicketAIACommsReqImpl</a></li>
+<li><a href="com_ofm_createticket_impl.htm#sthref222">AIAOrderFalloutErrorHandlerExtension - Java Class</a></li>
+</ul>
+</li>
+<li><a href="com_ofm_createticket_impl.htm#Toc285544286">Business Flow Fallout-Enabled Services</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_ofm_createticket_mang.htm#CIHDABGG"><span class="secnum">23</span> Implementing the Create and Manage Trouble Ticket from OSM Business Flow</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_createticket_mang.htm#CIHDFAJE">About the Create and Manage Trouble Tickets from OSM Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_createticket_mang.htm#CIHBFFHD">About the Order Failure Notification to OSM Integration Flow</a></li>
+<li><a href="com_ofm_createticket_mang.htm#CIHGHABG">About the Creating a Trouble Ticket in Siebel CRM from OSM Integration Flow</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BABFHFDJ">Defining Transaction Boundaries and Recovery Details</a></li>
+<li><a href="com_ofm_createticket_mang.htm#CIHEHDEB">Updating a Trouble Ticket in Siebel CRM from OSM Integration Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_createticket_mang.htm#BABDCHDJ">Defining Transaction Boundaries and Recovery Details</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_ofm_createticket_mang.htm#Toc259974104">Siebel CRM Interfaces</a></li>
+<li><a href="com_ofm_createticket_mang.htm#Toc259974105">Industry Oracle AIA Components</a></li>
+<li><a href="com_ofm_createticket_mang.htm#Toc259974106">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_createticket_mang.htm#BCGEEFII">AIAOrderFalloutJMSBridgeService</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGJHBAC">CreateOrderFalloutNotificationOSMCFSCommsJMSConsumer</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGDJGJJ">CreateOrderFalloutNotificationOSMCFSCommsProvImpl</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGHFJDH">CreateOrderFalloutNotificationOSMCFSCommsJMSProducer</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGHHAJF">CreateTroubleTicketOSMCFSCommsJMSConsumer</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGDBBBB">CreateTroubleTicketSiebelCommsProvABCSImpl</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGIAGDF">CreateTroubleTicketRespOSMCFSCommsJMSProducer</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGFBAAC">UpdateTroubleTicketOSMCFSCommsJMSConsumer</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGHEHJH">UpdateTroubleTicketSiebelCommsProvABCSImpl</a></li>
+<li><a href="com_ofm_createticket_mang.htm#BCGIHJDJ">CreateFaultNotificationLFCommsJMSConsumer</a></li>
+</ul>
+</li>
+<li><a href="com_ofm_createticket_mang.htm#Toc259974108">Business Flow Fallout-Enabled Services</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_part_implement.htm#sthref225">Part II Configuring the Process Integrations</a></h2>
+<h2 class="tocheader"><a href="com_plm_config.htm#Toc243998678"><span class="secnum">24</span> Configuring the Process Integration for Product Lifecycle Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_plm_config.htm#sthref226">About Configuring the Process Integration for Product Lifecycle Management</a></li>
+<li><a href="com_plm_config.htm#Toc194375598">Configuring Siebel CRM for Integrated Product Lifecycle Management</a></li>
+<li><a href="com_plm_config.htm#CACIJCDJ">Configuring BRM for Integrated Product Lifecycle Management</a></li>
+<li><a href="com_plm_config.htm#CACFEIFJ">Working with DVMs for Product Lifecycle Management</a></li>
+<li><a href="com_plm_config.htm#Toc236556263">Working with Cross-References for Product Lifecycle Management</a></li>
+<li><a href="com_plm_config.htm#Toc236556264">Handling Error Notifications for Product Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_config.htm#sthref229">About Error Notification Roles and Users</a></li>
+</ul>
+</li>
+<li><a href="com_plm_config.htm#CACBGGGA">Configuring Properties for Product Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_config.htm#sthref230">Configuration Properties for the Synchronize Product and Price Business Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_plm_config.htm#sthref231">Configuration Properties for BRM Services</a></li>
+<li><a href="com_plm_config.htm#sthref234">Configuration Properties for Siebel CRM Services</a></li>
+</ul>
+</li>
+<li><a href="com_plm_config.htm#CACDJJED">Configuration Properties for the Query Product Classes Business Flow</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_olm_config.htm#Toc243998705"><span class="secnum">25</span> Configuring the Process Integration for Order Lifecycle Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_olm_config.htm#sthref241">About Configuring the Process Integration for Order Lifecycle Management</a></li>
+<li><a href="com_olm_config.htm#Toc260999011">Working with Domain Value Maps for Order Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_config.htm#CBDCBGCE">Working with the PRICELIST DVM</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_config.htm#CBDGFJDA">Updating the PRICELIST DVM</a></li>
+<li><a href="com_olm_config.htm#sthref243">Migrating PRICELIST DVM Between Environments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_olm_config.htm#Toc236556290">Working with Cross-References for Order Lifecycle Management</a></li>
+<li><a href="com_olm_config.htm#Toc285544252">Handling Error Notifications for Order Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_config.htm#sthref246">About Error Notification Roles and Users</a></li>
+</ul>
+</li>
+<li><a href="com_olm_config.htm#CACEAGFI">Configuring the Process Integration for Order Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_config.htm#sthref247">Setting Oracle AIA Configuration Properties</a>
+<ul style="list-style-type:none">
+<li><a href="com_olm_config.htm#sthref248">System-Level Configuration Properties</a></li>
+<li><a href="com_olm_config.htm#sthref250">Configuration Properties for Siebel CRM Services</a></li>
+<li><a href="com_olm_config.htm#sthref254">Configuration Properties for BRM Services</a></li>
+</ul>
+</li>
+<li><a href="com_olm_config.htm#CBDDGDED">Setting the BRM Version Number for Backward Price List Compatibility</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_cm_config.htm#CHDCHGFG"><span class="secnum">26</span> Configuring the Process Integration for Customer Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_cm_config.htm#sthref262">About Configuring the Process Integration for Customer Management</a></li>
+<li><a href="com_cm_config.htm#CHDCCFAA">Working with Domain Value Maps for Customer Management</a></li>
+<li><a href="com_cm_config.htm#CHDDHDCH">Working with Cross-References for Customer Management</a></li>
+<li><a href="com_cm_config.htm#Toc226880879">Handling Error Notifications</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_config.htm#sthref266">About Error Notification Roles and Users</a></li>
+<li><a href="com_cm_config.htm#sthref267">Order Fallout Management</a></li>
+</ul>
+</li>
+<li><a href="com_cm_config.htm#CHDFGDJC">Configuring the Process Integration for Customer Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_cm_config.htm#sthref268">System-Level Configuration Properties</a></li>
+<li><a href="com_cm_config.htm#sthref270">Configuration Properties for BRM Services</a></li>
+<li><a href="com_cm_config.htm#sthref274">Configuration Properties for Siebel CRM Services</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_ofm_config.htm#Toc194375594"><span class="secnum">27</span> Configuring the Process Integration for Order Fallout Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_config.htm#sthref279">About Configuring the Process Integration for Order Fallout Management</a></li>
+<li><a href="com_ofm_config.htm#CACHFBHJ">Configuring Oracle AIA for Order Fallout Management</a></li>
+<li><a href="com_ofm_config.htm#CACHCIEA">Configuring Siebel CRM for Integrated Order Fallout Management</a></li>
+<li><a href="com_ofm_config.htm#CACDDIFD">Working with Domain Value Maps for Order Fallout Management</a></li>
+<li><a href="com_ofm_config.htm#Toc236556326">Working with Cross-References for Order Fallout Management</a></li>
+<li><a href="com_ofm_config.htm#Toc236556327">Handling Error Notifications for Order Fallout Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_ofm_config.htm#sthref283">About Error Notification Roles and Users</a></li>
+<li><a href="com_ofm_config.htm#CACGIHEG">Using Error Type to Control Response to Order Fallout</a></li>
+</ul>
+</li>
+<li><a href="com_ofm_config.htm#Toc281981870">Configuring the Process Integration for Order Fallout Services</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_part_appendix.htm#sthref289">Part III Appendixes</a></h2>
+<h2 class="tocheader"><a href="com_appx_plm_xref.htm#CHDBDJJI"><span class="secnum">A</span> Cross-References for the Process Integration for Product Lifecycle Management</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_plm_xref.htm#CHDHDHCH">Cross-References for the Process Integration for Product Lifecycle Management</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_plm_xref.htm#sthref291">Cross-Reference Values</a></li>
+</ul>
+</li>
+<li><a href="com_appx_plm_xref.htm#CHDJHDJF">Product Synchronization Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_plm_xref.htm#sthref300">Example of Simple Product Synchronization</a></li>
+<li><a href="com_appx_plm_xref.htm#sthref304">Example of Complex Product Synchronization</a></li>
+</ul>
+</li>
+<li><a href="com_appx_plm_xref.htm#CHDFDGHD">Discount Synchronization Flow</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_plm_xref.htm#sthref311">Example of Discount Synchronization</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_olm_dict.htm#BHABGHIC"><span class="secnum">B</span> Communications Orders Dictionary</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_dict.htm#CHDFBHAH">Order Header Component Attributes</a></li>
+<li><a href="com_appx_olm_dict.htm#CHDFEIFI">Order Line Component Attributes</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_olm_mapdates.htm#CHDCFCEC"><span class="secnum">C</span> Mapping Billing Dates</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_mapdates.htm#CHDJAGBE">How Dates are Set in BRM</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_olm_macd.htm#CHDIFFBB"><span class="secnum">D</span> Supporting MACD Actions and Attribute Changes</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_macd.htm#CHDICFHA">MACD Line Actions Supported</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_macd.htm#sthref324">MACD Line Actions Supported for Service Bundle Components</a></li>
+<li><a href="com_appx_olm_macd.htm#sthref328">MACD Line Actions Supported for Account-Level Products</a></li>
+</ul>
+</li>
+<li><a href="com_appx_olm_macd.htm#CBHIHCFJ">Communicating Product Attribute Changes to BRM</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_macd.htm#sthref332">Communicating Marketing Bundle Attribute Changes</a></li>
+<li><a href="com_appx_olm_macd.htm#sthref333">Communicating Service Bundle Attribute Changes</a></li>
+<li><a href="com_appx_olm_macd.htm#sthref334">Communicating Service Bundle Component Attribute Changes</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_macd.htm#sthref335">Communicating Service-Level Billing Subscription Product Attribute Changes</a></li>
+<li><a href="com_appx_olm_macd.htm#sthref336">Communicating Service-Level Billing Discount Product Attribute Changes</a></li>
+<li><a href="com_appx_olm_macd.htm#sthref337">Communicating Service-Level Billing Item Product Attribute Changes</a></li>
+<li><a href="com_appx_olm_macd.htm#sthref338">Communicating Service-Level Special Rating Product Attribute Changes</a></li>
+</ul>
+</li>
+<li><a href="com_appx_olm_macd.htm#sthref339">Communicating Account-Level Product Attribute Changes</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_macd.htm#sthref340">Communicating Account-Level Billing Subscription Product Attribute Changes</a></li>
+<li><a href="com_appx_olm_macd.htm#sthref341">Communicating Account-Level Billing Discount Attribute Changes</a></li>
+<li><a href="com_appx_olm_macd.htm#sthref342">Communicating Account-Level Billing Item Product Attribute Changes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_olm_reparent.htm#CHDHIAID"><span class="secnum">E</span> Examples of Changing the Paying Account for Child Accounts</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_reparent.htm#sthref343">About the Examples</a></li>
+<li><a href="com_appx_olm_reparent.htm#BABJEBGB">Examples when Service-Level Balance Groups Are Enabled</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_reparent.htm#sthref345">Changing the Paying Account for a Child Account with Separate Billing Profiles</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_reparent.htm#sthref350">Alternative: Single Billing Profile</a></li>
+<li><a href="com_appx_olm_reparent.htm#sthref353">Alternative: Multiple Parents</a></li>
+</ul>
+</li>
+<li><a href="com_appx_olm_reparent.htm#sthref356">Changing the Paying Account for a Child Account with a Single Billing Profile</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_reparent.htm#sthref361">Alternative: Multiple Billing Profiles</a></li>
+</ul>
+</li>
+<li><a href="com_appx_olm_reparent.htm#sthref364">Changing the Paying Account for Multiple Child Accounts</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_reparent.htm#sthref369">Alternative: Single Billing Profile</a></li>
+</ul>
+</li>
+<li><a href="com_appx_olm_reparent.htm#sthref372">Changing Multiple Paying Accounts</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_reparent.htm#sthref377">Alternative: Separate Billing Profiles</a></li>
+<li><a href="com_appx_olm_reparent.htm#sthref380">Alternative: Self Paying and Paying Parent</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="com_appx_olm_reparent.htm#BABBCIFJ">Examples when Service-Level Balance Groups Are Disabled</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_reparent.htm#CHDIAGED">Changing the Paying Parent for a Child Account</a></li>
+<li><a href="com_appx_olm_reparent.htm#CHDHBGHG">Changing the Paying Parent for Multiple Child Accounts with Separate Billing Profiles</a></li>
+<li><a href="com_appx_olm_reparent.htm#CHDCDCDE">Problems When Integrating Separate Billing Profiles on the Same Account</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_olm_multiconfig.htm#CHDBBHFI"><span class="secnum">F</span> Configuring Multiple BRM Instances for Communications Integrations</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_multiconfig.htm#DJFJHJIH">Understanding System Codes in Oracle AIA</a></li>
+<li><a href="com_appx_olm_multiconfig.htm#DJFFIIJJ">Configuring Multiple BRM Instances - General Steps</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_multiconfig.htm#sthref396">Creating a New Consumer for Product Synchronization</a></li>
+<li><a href="com_appx_olm_multiconfig.htm#sthref404">Creating a New Consumer for Discount Synchronization</a></li>
+<li><a href="com_appx_olm_multiconfig.htm#sthref412">Creating a New Consumer for Customer Updates</a></li>
+</ul>
+</li>
+<li><a href="com_appx_olm_multiconfig.htm#CHDCHICE">Creating a Data Source and Connection Factory</a></li>
+<li><a href="com_appx_olm_multiconfig.htm#CHDEAIEI">Creating Logical Instances in Oracle AIA</a></li>
+<li><a href="com_appx_olm_multiconfig.htm#CHDIHAGH">Creating Service Bundles in Siebel CRM</a></li>
+<li><a href="com_appx_olm_multiconfig.htm#CHDFHFAF">Merging Logical BRM Instances into a Single BRM Instance</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_olm_reconfig.htm#BHCJGBAI"><span class="secnum">G</span> Changing the BRM Instance</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_olm_reconfig.htm#CHDGJEGF">Changing the BRM Instance</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_olm_expected.htm#CHDCCGGJ"><span class="secnum">H</span> Expectations from an Order Management System for Billing Integration</a></h2>
+<h2 class="tocheader"><a href="com_appx_omr.htm#OLELINK8"><span class="secnum">I</span> Using the Oracle Mediator Resequencer Feature</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_omr.htm#BFJCAFIC">Queues and Flows Enabled for Sequencing</a></li>
+<li><a href="com_appx_omr.htm#BGBFIGIC">Resolving Errors in Flows with Resequencer</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_compliant.htm#BGBHHIGF"><span class="secnum">J</span> Guidelines for Ensuring that Oracle AIA Processes are Fallout-Compliant</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_compliant.htm#Toc236556335">Populating Sender Context Information in the EBM Header</a></li>
+<li><a href="com_appx_compliant.htm#EGCFBGBI">Populating the Enriched Fault Message with Business Faults</a></li>
+<li><a href="com_appx_compliant.htm#Toc236556337">Populating the Enriched Fault Message in Services without EBMs</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_ebs.htm#CHDCDEEC"><span class="secnum">K</span> Reintroducing Enterprise Business Services</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_ebs.htm#sthref430">Reintroducing Enterprise Business Services</a></li>
+</ul>
+<h2 class="tocheader"><a href="com_appx_multischema.htm#BGBBGFBJ"><span class="secnum">L</span> Understanding Multischema Migration</a></h2>
+<ul style="list-style-type:none">
+<li><a href="com_appx_multischema.htm#BGBEIGJC">About Multischema Migration</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_multischema.htm#BGBBBHBJ">Mapping BRM POIDs to AIA Cross-References</a></li>
+<li><a href="com_appx_multischema.htm#BGBHIEAC">Synchronizing Cross-References for Migrated Accounts</a></li>
+<li><a href="com_appx_multischema.htm#BGBBDBCI">Configuring Oracle AIA and BRM to Work Together in Multischema Environments</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_multischema.htm#BGBCIGIF">Configuring Oracle AIA to Work with BRM in Multischema Environments</a></li>
+<li><a href="com_appx_multischema.htm#sthref434">Configuring BRM to Work with Oracle AIA in Multischema Environments</a></li>
+</ul>
+</li>
+<li><a href="com_appx_multischema.htm#BGBGFDGF">Handling Errors</a></li>
+<li><a href="com_appx_multischema.htm#BGBJIDJH">Assumptions and Constraints for Multischema Migration</a></li>
+<li><a href="com_appx_multischema.htm#BGBHFGCI">Integration Services</a>
+<ul style="list-style-type:none">
+<li><a href="com_appx_multischema.htm#sthref435">About the SyncMultiSchemaChangeBRMAQ Consumer</a></li>
+<li><a href="com_appx_multischema.htm#sthref436">About the SyncMultiSchemaChangeBRMRequester Service</a></li>
+<li><a href="com_appx_multischema.htm#sthref437">About the MultiSchemaUpdate.sql Process</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<!-- class="ind" -->
+<!-- Start Footer -->
+</div>
+<!-- add extra wrapper close div-->
+<footer><!--
+<hr />
+<table class="cellalignment1">
+<tr>
+<td class="cellalignment10">
+<table class="cellalignment14">
+<tr>
+<td class="cellalignment5"><a href="title.htm"><img width="24" height="24" src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td class="cellalignment-copyrightlogo"><img width="144" height="18" src="../../dcommon/gifs/oracle.gif" alt="Oracle" /><br />
+Copyright&nbsp;&copy;&nbsp;2011, 2017,&nbsp;Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved.<br />
+<a href="../../dcommon/html/cpyr.htm">Legal Notices</a></td>
+<td class="cellalignment12">
+<table class="cellalignment13">
+<tr>
+<td class="cellalignment5"><a href="../../index.htm"><img width="24" height="24" src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" /><br />
+<span class="icon">Home</span></a></td>
+<td class="cellalignment5"><a href="../../dcommon/html/feedback.htm"><img width="24" height="24" src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" /><br />
+<span class="icon">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+--></footer>
+<noscript>
+<p>Scripting on this page enhances content navigation, but does not change the content in any way.</p>
+</noscript>
+</body>
+</html>

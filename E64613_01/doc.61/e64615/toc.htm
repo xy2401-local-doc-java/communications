@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Communications Services Gatekeeper Alarms Handling Guide - Contents</title>
+<meta name="generator" content="Oracle DARB XHTML Converter (Mode = document) - Merged Version 1086" />
+<meta name="dcterms.created" content="2016-09-26T21:8:37Z" />
+<meta name="robots" content="all" />
+<meta name="dcterms.title" content="Communications Services Gatekeeper Alarms Handling Guide" />
+<meta name="dcterms.identifier" content="E64615-01" />
+<meta name="dcterms.isVersionOf" content="SGALR" />
+<meta name="dcterms.rights" content="Copyright&nbsp;&copy;&nbsp;2007, 2016,&nbsp;Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved." />
+<link rel="Start" href="../../index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="../../dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+
+<script type="application/javascript"   src="../../dcommon/js/headfoot.js"></script>
+<script type="application/javascript"   src="../../nav/js/doccd.js"></script>
+<link rel="Next" href="title.htm" title="Next" type="text/html" />
+<link rel="alternate" href="../e64615.pdf" title="PDF version" type="application/pdf" />
+<link rel="alternate" href="../E64615-01.epub" title="ePub version" type="application/epub+zip" />
+<link rel="alternate" href="../E64615-01.mobi" title="Mobipocket version" type="application/x-mobipocket-ebook" />
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<link rel="stylesheet" href="../../dcommon/css/fusiondoc.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/header.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/footer.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/fonts.css">
+<link rel="stylesheet" href="../../dcommon/css/foundation.css">
+<link rel="stylesheet" href="../../dcommon/css/codemirror.css">
+<link rel="stylesheet" type="text/css" title="Default" href="../../nav/css/html5.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-480-tablet.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-768-laptop.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-1140-deskop.css">
+<script type="application/javascript"  src="../../dcommon/js/modernizr.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/codemirror.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/jquery.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/foundation.min.js"></script>
+<script type="application/javascript"  src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552992c80ef99c8d" async="async"></script>
+<script type="application/javascript"  src="../../dcommon/js/jqfns.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/ohc-inline-videos.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="../../dcommon/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet"  href="../../dcommon/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet"  href="../../dcommon/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+<body>
+<a href="#BEGIN" class="accessibility-top skipto" tabindex="0">Go to main content</a><header><!--
+<div class="zz-skip-header"><a id="top" href="#BEGIN">Go to main content</a>--></header>
+<div class="row" id="CONTENT">
+<div class="IND large-9 medium-8 columns" dir="ltr">
+<a id="BEGIN" name="BEGIN"></a>
+<span id="PAGE" style="display:none;">1/6</span> <!-- End Header -->
+<h1 class="toc">Contents</h1>
+<h2 class="tocheader"><a href="title.htm">Title and Copyright Information</a></h2>
+<h2 class="tocheader"><a href="preface.htm#sthref2">Preface</a></h2>
+<ul style="list-style-type:none">
+<li><a href="preface.htm#sthref3">Audience</a></li>
+<li><a href="preface.htm#sthref4">Documentation Accessibility</a></li>
+<li><a href="preface.htm#sthref6">Related Documents</a></li>
+</ul>
+<h2 class="tocheader"><a href="alr_handling.htm#i1204710"><span class="secnum">1</span> Handling Alarms</a></h2>
+<ul style="list-style-type:none">
+<li><a href="alr_handling.htm#i1165876">Interpreting Alarms</a></li>
+<li><a href="alr_handling.htm#i1165894">Alarm Numbering Overview</a>
+<ul style="list-style-type:none">
+<li><a href="alr_handling.htm#sthref8">2.2 Style (Legacy) Alarms</a>
+<ul style="list-style-type:none">
+<li><a href="alr_handling.htm#sthref9">Protocol Plug-in</a></li>
+<li><a href="alr_handling.htm#sthref10">Policy</a></li>
+<li><a href="alr_handling.htm#sthref11">SLEE</a></li>
+</ul>
+</li>
+<li><a href="alr_handling.htm#sthref12">3.0 Style (Current) Alarms</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="alr_alarms22.htm#i1007320"><span class="secnum">2</span> Resolving 2.2 Style Alarms</a></h2>
+<ul style="list-style-type:none">
+<li><a href="alr_alarms22.htm#sthref13">103827/1034 SLEE: Transaction Limit Violated</a></li>
+<li><a href="alr_alarms22.htm#sthref16">103833/1035 SLEE: Transaction Limit Reached 95% of the Allowed Value</a></li>
+<li><a href="alr_alarms22.htm#sthref19">103900/1100 SLEE Charging: Charging Data Storage Failed</a></li>
+<li><a href="alr_alarms22.htm#sthref22">103901/1101 SLEE Charging: Charging Service Initialization Failed</a></li>
+<li><a href="alr_alarms22.htm#sthref25">103902/1102 SLEE Charging: Charging Table Creation Failed</a></li>
+<li><a href="alr_alarms22.htm#sthref28">104000/1600 SLEE EDR Service: 2.2 Listener Execution Time Exceeded</a></li>
+<li><a href="alr_alarms22.htm#sthref31">104001/1601 SLEE EDR Service: 2.2 Style EDR Listener Removed</a></li>
+<li><a href="alr_alarms22.htm#sthref34">104100/7001 SLEE Statistics: Failed to Store Statistics Data</a></li>
+<li><a href="alr_alarms22.htm#sthref37">102700/22000 Plug-in OSA Access: OSA Gateway Authentication Failed</a></li>
+<li><a href="alr_alarms22.htm#sthref40">102701/22001 Plug-in OSA Access: OSA Gateway Service Manager Unreachable</a></li>
+<li><a href="alr_alarms22.htm#sthref43">102702/22002 Plug-in OSA Access: OSA Gateway Unreachable</a></li>
+<li><a href="alr_alarms22.htm#sthref46">102703/22003 Plug-in OSA Access: No Mapping Available</a></li>
+<li><a href="alr_alarms22.htm#sthref49">102704/22004 Plug-in OSA Access: Internal Error When Handling Event</a></li>
+<li><a href="alr_alarms22.htm#sthref52">102800/3002 Policy Service: Parsing of Service-Specific Rule File Failed</a></li>
+<li><a href="alr_alarms22.htm#sthref55">3003 Policy Service: Various Policy Denials</a></li>
+<li><a href="alr_alarms22.htm#sthref58">102802/3005 Policy Service: Request Denied</a></li>
+<li><a href="alr_alarms22.htm#sthref61">102803/3006 Policy Service: Runtime Exception in Policy Rule</a></li>
+<li><a href="alr_alarms22.htm#sthref64">102804/3007 Service Provider Group SLA Added</a></li>
+<li><a href="alr_alarms22.htm#sthref67">102806/3009 Service Provider Group SLA Updated</a></li>
+<li><a href="alr_alarms22.htm#sthref70">102810/3013 Policy Service: Node SP SLA Added</a></li>
+<li><a href="alr_alarms22.htm#sthref73">102811/3014 Policy Service: Node SP SLA Deleted</a></li>
+<li><a href="alr_alarms22.htm#sthref76">102812/3015 Policy Service: Node SP SLA Updated</a></li>
+<li><a href="alr_alarms22.htm#sthref79">102813/3016 Policy Service: Node SLA Added</a></li>
+<li><a href="alr_alarms22.htm#sthref82">102814/3017 Policy Service: Node SLA Deleted</a></li>
+<li><a href="alr_alarms22.htm#sthref85">102815/3018 Policy Service: Node SLA Updated When Raised by Policy</a></li>
+<li><a href="alr_alarms22.htm#sthref88">102816/3019 Policy Service: Application Rules Updated</a></li>
+<li><a href="alr_alarms22.htm#sthref91">102817/3020 Policy Service: Node Rules Updated</a></li>
+<li><a href="alr_alarms22.htm#sthref94">102818/3021 Policy Service: Service Provider Rules Updated</a></li>
+<li><a href="alr_alarms22.htm#sthref97">102819/3022 Policy Service: Application Rules Deleted</a></li>
+<li><a href="alr_alarms22.htm#sthref100">102820/3023 Policy Service: Node Rules Deleted</a></li>
+<li><a href="alr_alarms22.htm#sthref103">102821/3024 Policy Service: Service Provider Rules Deleted</a></li>
+<li><a href="alr_alarms22.htm#sthref106">102822/3025 Policy Service: Service Provider/Application Quota Limit Exceeded</a></li>
+<li><a href="alr_alarms22.htm#sthref109">102823/3026 Policy Service: Service Provider/Application Request Limit Exceeded</a></li>
+<li><a href="alr_alarms22.htm#sthref112">102824/3027 Policy Service: Global/SP NODE Request Limit Exceeded</a></li>
+<li><a href="alr_alarms22.htm#sthref115">102825/3028 Policy Service: Global or SP Node Service Contract is Missing or Out of Date</a></li>
+</ul>
+<h2 class="tocheader"><a href="alr_alarms30.htm#i999654"><span class="secnum">3</span> Resolving 3.0 and Higher Style Alarms</a></h2>
+<ul style="list-style-type:none">
+<li><a href="alr_alarms30.htm#sthref118">102801 Alarm Raised from Policy Rule File</a></li>
+<li><a href="alr_alarms30.htm#sthref121">102826 Policy Service: Application Does Not Exist or Is Not Active</a></li>
+<li><a href="alr_alarms30.htm#sthref124">102827 Policy Service: Unable to Get Service Provider and Application Information</a></li>
+<li><a href="alr_alarms30.htm#sthref127">102828 Policy Service: Service Provider or App Request Limit Exceeded for Service Type</a></li>
+<li><a href="alr_alarms30.htm#sthref130">102829 Policy Service: Service Provider or Application Quota Limit Exceeded for Service Type</a></li>
+<li><a href="alr_alarms30.htm#sthref133">102830 Policy Service: All Properties Denied</a></li>
+<li><a href="alr_alarms30.htm#sthref136">102831 Policy Service: Parameter Value Is Not Allowed</a></li>
+<li><a href="alr_alarms30.htm#sthref139">102832 Policy Service: Request Info Is Empty</a></li>
+<li><a href="alr_alarms30.htm#sthref142">102833 Policy Service: Accessing Method Is Not Allowed</a></li>
+<li><a href="alr_alarms30.htm#sthref145">102834 Policy Service: Accessing Method Is Not Allowed</a></li>
+<li><a href="alr_alarms30.htm#sthref148">102835 Policy Service: Exception Thrown Calling Correlator</a></li>
+<li><a href="alr_alarms30.htm#sthref151">102836 Policy Service: Exception Thrown Calling Factory</a></li>
+<li><a href="alr_alarms30.htm#sthref154">102837 Policy Service: No Global or Service Provider Node SLA Found</a></li>
+<li><a href="alr_alarms30.htm#sthref157">102838 Policy Service: Application or Service Provider Group Service Contract Is Out of Date</a></li>
+<li><a href="alr_alarms30.htm#sthref160">102839 Policy Service: Group Service Type Contract Is Out of Date</a></li>
+<li><a href="alr_alarms30.htm#sthref163">102840 Policy Service: No Service Contract Found</a></li>
+<li><a href="alr_alarms30.htm#sthref166">102841 Subscriber Restrict All</a></li>
+<li><a href="alr_alarms30.htm#sthref169">102842 Subscriber Quota or Rate Limit Reached</a></li>
+<li><a href="alr_alarms30.htm#sthref172">102843 Application Is Not Logged In</a></li>
+<li><a href="alr_alarms30.htm#sthref175">102844 Policy Service: Group Composed Service Contract is Out of Date</a></li>
+<li><a href="alr_alarms30.htm#sthref178">102845 Policy Service: Service Provider/Application Request Limit Exceeded</a></li>
+<li><a href="alr_alarms30.htm#sthref181">102846 Policy Service: Service Provider/Application Quota Limit Exceeded</a></li>
+<li><a href="alr_alarms30.htm#sthref184">110000 Corba: Servant Is Already Active</a></li>
+<li><a href="alr_alarms30.htm#sthref187">110001 Corba: Servant Is Not Active</a></li>
+<li><a href="alr_alarms30.htm#sthref190">110002 Corba: Wrong Policy</a></li>
+<li><a href="alr_alarms30.htm#sthref193">110003 Corba: Object is Already Active</a></li>
+<li><a href="alr_alarms30.htm#sthref196">110004 Corba: Object Is Not Active</a></li>
+<li><a href="alr_alarms30.htm#sthref199">110005 Corba: Invalid Policy</a></li>
+<li><a href="alr_alarms30.htm#sthref202">110006 Corba: Adapter Already Exists</a></li>
+<li><a href="alr_alarms30.htm#sthref205">110007 Corba: Generic CORBA Exception</a></li>
+<li><a href="alr_alarms30.htm#sthref208">110008 Corba: Exception When Handling POA</a></li>
+<li><a href="alr_alarms30.htm#sthref211">110100 JMX: NotCompliantMBeanException</a></li>
+<li><a href="alr_alarms30.htm#sthref214">110101 JMX: MalformedObjectNameException</a></li>
+<li><a href="alr_alarms30.htm#sthref217">110102 JMX: MBeanRegistrationException</a></li>
+<li><a href="alr_alarms30.htm#sthref220">110103 JMX: InstanceAlreadyExistsException</a></li>
+<li><a href="alr_alarms30.htm#sthref223">110104 JMX: InstanceNotFoundException</a></li>
+<li><a href="alr_alarms30.htm#sthref226">110105 JMX: Default Management Error</a></li>
+<li><a href="alr_alarms30.htm#sthref229">110500 Plug-in Manager: Policy Denied Exception in Plug-in Manager</a></li>
+<li><a href="alr_alarms30.htm#sthref232">110501 Plug-in Manager: A Plug-in with the Same ID Is Already Registered</a></li>
+<li><a href="alr_alarms30.htm#sthref235">110502 Plug-in Manager: There is No Plug-in Available for this Request</a></li>
+<li><a href="alr_alarms30.htm#sthref238">110503 Plug-in Manager: There is No Plug-in Corresponding to this ID</a></li>
+<li><a href="alr_alarms30.htm#sthref241">110504 Plug-in Manager: Plug-in Manager Generic Exception</a></li>
+<li><a href="alr_alarms30.htm#sthref244">110600 Plug-in SMS SMPP: Too Many Destination Addresses in Request</a></li>
+<li><a href="alr_alarms30.htm#sthref247">110601 Plug-in SMS SMPP: SMPP Message Send Failure</a></li>
+<li><a href="alr_alarms30.htm#sthref250">110602 Plug-in SMS SMPP: Unable to Notify SMS Reception</a></li>
+<li><a href="alr_alarms30.htm#sthref253">110603 Plug-in SMS SMPP: No Matching Notification for Received SMS</a></li>
+<li><a href="alr_alarms30.htm#sthref256">110604 Plug-in SMS SMPP: Unable to Notify Delivery Status</a></li>
+<li><a href="alr_alarms30.htm#sthref259">110605 Plug-in SMS SMPP: Unable to Retrieve the Notification Service</a></li>
+<li><a href="alr_alarms30.htm#sthref262">110613 Plug-in SMS SMPP: Partial Failure of Submit Multi Request</a></li>
+<li><a href="alr_alarms30.htm#sthref265">110615 Plug-in SMS SMPP: Segments Are Missing from the Message</a></li>
+<li><a href="alr_alarms30.htm#sthref268">110619 Plug-in SMS SMPP: Illegal XParameter Value</a></li>
+<li><a href="alr_alarms30.htm#sthref271">110680 Plug-in SMS SMPP (Binary SMS): Too Many Segments</a></li>
+<li><a href="alr_alarms30.htm#sthref274">110901 Plug-in Presence SIP: Failed to Handle a SIP NOTIFY Message</a></li>
+<li><a href="alr_alarms30.htm#sthref277">110902 Plug-in Presence SIP: Failed to Invoke Client Operation: notifySubscription</a></li>
+<li><a href="alr_alarms30.htm#sthref280">110904 Plug-in Presence SIP: Failed to Invoke Client Operation: makeStatusChangedCallback</a></li>
+<li><a href="alr_alarms30.htm#sthref283">110907 Plug-in Presence SIP: Failed to Invoke subscribePresence</a></li>
+<li><a href="alr_alarms30.htm#sthref286">110908 Plug-in Presence SIP: Failed to Invoke getUserPresence</a></li>
+<li><a href="alr_alarms30.htm#sthref289">110909 Plug-in Presence SIP: Failed to Invoke startPresenceNotification</a></li>
+<li><a href="alr_alarms30.htm#sthref292">110910 Plug-in Presence SIP: Failed to Invoke endPresenceNotification</a></li>
+<li><a href="alr_alarms30.htm#sthref295">110918 Plug-in Presence SIP: Failed to Start</a></li>
+<li><a href="alr_alarms30.htm#sthref298">110922 Plug-in Presence SIP: Failed to Perform OAM Operation</a></li>
+<li><a href="alr_alarms30.htm#sthref301">111000 Budget Service: Configuration Mismatch between Sites</a></li>
+<li><a href="alr_alarms30.htm#sthref304">111001 Budget Service: Shutting Down Duplicate Budget Service Master</a></li>
+<li><a href="alr_alarms30.htm#sthref307">111002 Budget Service: Budget Master Unreachable</a></li>
+<li><a href="alr_alarms30.htm#sthref310">111003 Budget Service: New Budget Master Available for Service</a></li>
+<li><a href="alr_alarms30.htm#sthref313">111004 Budget Service: One of the Remote Sites Is Unreachable</a></li>
+<li><a href="alr_alarms30.htm#sthref316">111006 Budget Service: There Is a Budget Configuration Mismatch Between Sites. Please Look in the Log File for More Information</a></li>
+<li><a href="alr_alarms30.htm#sthref319">111007 Budget Service: Budget Value is Below 20% of Max Value</a></li>
+<li><a href="alr_alarms30.htm#sthref322">111100 Storage Service: Exception Thrown during Store Database Table Entry Expiration</a></li>
+<li><a href="alr_alarms30.htm#sthref325">111101 Storage Service: Failed to Initialize the Storage Service</a></li>
+<li><a href="alr_alarms30.htm#sthref328">111102 Storage Service: Failed to Initialize the Cluster Cache for the Storage Service</a></li>
+<li><a href="alr_alarms30.htm#sthref331">111103 Storage Service: Failed Write behind Operations for a Storage Service Store</a></li>
+<li><a href="alr_alarms30.htm#sthref334">111104 Storage Service: Storage Exception</a></li>
+<li><a href="alr_alarms30.htm#sthref337">111105 Storage Service: Query Result Was Possibly Truncated</a></li>
+<li><a href="alr_alarms30.htm#sthref340">111202 Plug-in MLP: Start Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref343">111203 Plug-in MLP: Stop Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref346">111204 Plug-in MLP: Activate Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref349">111205 Plug-in MLP: Deactivate Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref352">111206 Plug-in MLP: SendLocation Request Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref355">111207 Plug-in MLP: Notify Application that Location Notification Has Ceased Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref358">111208 Plug-in MLP: Notify Application of a Location Error Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref361">111209 Plug-in MLP: Notify Application of a Location Notification Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref364">111700 Plug-in MM7: Failed to Send Multimedia Message</a></li>
+<li><a href="alr_alarms30.htm#sthref367">111701 Plug-in MM7: Failed to Get Multimedia Message Delivery Status</a></li>
+<li><a href="alr_alarms30.htm#sthref370">111702 Plug-in MM7: Failed to Poll Received New Multimedia Messages</a></li>
+<li><a href="alr_alarms30.htm#sthref373">111703 Plug-in MM7: Failed to Get a Multimedia Message</a></li>
+<li><a href="alr_alarms30.htm#sthref376">111704 Plug-in MM7: Failed to Send MM7 Messages to Network</a></li>
+<li><a href="alr_alarms30.htm#sthref379">111705 Plug-in MM7: Failed to Activate the MM7 Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref382">111706 Plug-in MM7: Failed to Deactivate the MM7 Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref385">111707 Plug-in MM7: Failed to Start the MM7 Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref388">111708 Plug-in MM7: Failed to Stop the MM7 Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref391">111709 Plug-in MM7: Failed to Notify Message Reception</a></li>
+<li><a href="alr_alarms30.htm#sthref394">111710 Plug-in MM7: Failed to Notify Message Delivery Receipt</a></li>
+<li><a href="alr_alarms30.htm#sthref397">111711 Plug-in MM7: Application is Not Available</a></li>
+<li><a href="alr_alarms30.htm#sthref400">111712 Plug-in MM7: Recipient Number Not Found</a></li>
+<li><a href="alr_alarms30.htm#sthref403">111713 Plug-in MM7: No Matching MessageInfo Found</a></li>
+<li><a href="alr_alarms30.htm#sthref406">111714 Plug-in MM7: Unsupported Address Type</a></li>
+<li><a href="alr_alarms30.htm#sthref409">111715 Plug-in MM7: Failed to Start Message Notification</a></li>
+<li><a href="alr_alarms30.htm#sthref412">111716 Plug-in MM7: Failed to Stop Message Notification</a></li>
+<li><a href="alr_alarms30.htm#sthref415">111717 Plug-in MM7: No Application Found for a Mobile Originated MMS</a></li>
+<li><a href="alr_alarms30.htm#sthref418">111718 Plug-in MM7: MM7 Relay Server Responded with an Error Code</a></li>
+<li><a href="alr_alarms30.htm#sthref421">113300 Subscriber-Centric Policy: Quota Limit Exceeded for Subscriber</a></li>
+<li><a href="alr_alarms30.htm#sthref424">113400 CDR to Diameter: Failed to Start the CDR to Diameter Module</a></li>
+<li><a href="alr_alarms30.htm#sthref427">113401 CDR to Diameter: Failed to Start the CDRDiameter Node</a></li>
+<li><a href="alr_alarms30.htm#sthref430">113402 CDR to Diameter: Failed to Shutdown the CDRDiameter Node</a></li>
+<li><a href="alr_alarms30.htm#sthref433">113403 CDR to Diameter: Failed to Send Diameter ACR</a></li>
+<li><a href="alr_alarms30.htm#sthref436">113404 CDR to Diameter: Failed to Send Diameter ACR Due to Input/Output</a></li>
+<li><a href="alr_alarms30.htm#sthref439">113405 CDR to Diameter: Retrieved Error Code from Diameter Response</a></li>
+<li><a href="alr_alarms30.htm#sthref442">113406 CDR to Diameter: No Diameter Connection Available</a></li>
+<li><a href="alr_alarms30.htm#sthref445">113500 Credit Control Interceptor: Failed to Reserve Amount by Sending INITIAL Diameter CCR</a></li>
+<li><a href="alr_alarms30.htm#sthref448">113501 Credit Control Interceptor: Failed to Commit TERMINATE CCR Reservation</a></li>
+<li><a href="alr_alarms30.htm#sthref451">113502 Credit Control Interceptor: Failed to Start the Credit Control Interceptor Module</a></li>
+<li><a href="alr_alarms30.htm#sthref454">113503 Credit Control Interceptor: Failed to Start the Diameter Node</a></li>
+<li><a href="alr_alarms30.htm#sthref457">113504 Credit Control Interceptor: Failed to Shutdown the Diameter Node</a></li>
+<li><a href="alr_alarms30.htm#sthref460">113601 Geo-Redundancy Service: Site Mismatch</a></li>
+<li><a href="alr_alarms30.htm#sthref463">113602 Geo-Redundancy Service: Site Mismatch</a></li>
+<li><a href="alr_alarms30.htm#sthref466">113701 Geo-Storage Service: Configuration Mismatch</a></li>
+<li><a href="alr_alarms30.htm#sthref469">113702 Geo-Storage Service: Failed to Replicate a Configuration Data</a></li>
+<li><a href="alr_alarms30.htm#sthref472">114201 Plug-in Payment/Diameter: Failed to Connect to Diameter Server</a></li>
+<li><a href="alr_alarms30.htm#sthref475">114202 Failed to Disconnect from the Diameter Server</a></li>
+<li><a href="alr_alarms30.htm#sthref478">114203 Failed to Charge Amount</a></li>
+<li><a href="alr_alarms30.htm#sthref481">114204 Failed to Start AmountReservationTransaction</a></li>
+<li><a href="alr_alarms30.htm#sthref484">114205 Failed to Update AmountReservationTransaction</a></li>
+<li><a href="alr_alarms30.htm#sthref487">114206 Failed to checkTransactionStatus</a></li>
+<li><a href="alr_alarms30.htm#sthref490">114207 Failed to listTransaction</a></li>
+<li><a href="alr_alarms30.htm#sthref493">114208 Failed to Charge</a></li>
+<li><a href="alr_alarms30.htm#sthref496">114209 Plug-in Payment/Diameter: Failed to Communicate with Diameter Server</a></li>
+<li><a href="alr_alarms30.htm#sthref499">115001 An SLA is About to Expire</a></li>
+<li><a href="alr_alarms30.htm#sthref502">115002 Problem Encountered during SLA Expiration Check</a></li>
+<li><a href="alr_alarms30.htm#sthref505">118100 Heartbeat Service: Timer Expiration Ignored, as Heartbeater is Sending Pings</a></li>
+<li><a href="alr_alarms30.htm#sthref508">118101 Heartbeat Service: Heartbeat is Alive. Set Plug-in Status to Active</a></li>
+<li><a href="alr_alarms30.htm#sthref511">118102 Heartbeat Service: Heartbeat Failed. Set Plug-in Status to Inactive</a></li>
+<li><a href="alr_alarms30.htm#sthref514">119000 Plug-in Third Party Call Parlay MPCC: Failed to Start Third Party Call Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref517">119001 Plug-in Third Party Call Parlay MPCC: Failed to Stop Third Party Call Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref520">119002 Plug-in Third Party Call Parlay MPCC: Failed to Activate Third Party Call Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref523">119003 Plug-in Third Party Call Parlay MPCC: Failed to Deactivate Third Party Call Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref526">119004 Plug-in Third Party Call Parlay MPCC: Failed to Update Call Status upon Receiving a callEnded Event</a></li>
+<li><a href="alr_alarms30.htm#sthref529">119005 Plug-in Third Party Call Parlay MPCC: Failed to Update Call Status upon Receiving a callLegEnded Event</a></li>
+<li><a href="alr_alarms30.htm#sthref532">119006 Plug-in Third Party Call Parlay MPCC: Failed to Update Call Status upon Receiving an eventReportRes Event</a></li>
+<li><a href="alr_alarms30.htm#sthref535">119007 Plug-in Third Party Call Parlay MPCC: Failed to Update Call Status upon Receiving a getInfoRes Event</a></li>
+<li><a href="alr_alarms30.htm#sthref538">119008 Plug-in Third Party Call Parlay MPCC: Failed to Update Call Status When Receiving a getInfoRes Event Upon IpAppCallLeg Interface</a></li>
+<li><a href="alr_alarms30.htm#sthref541">119009 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpMultiPartyCall.getInfoReq() on parlayGW</a></li>
+<li><a href="alr_alarms30.htm#sthref544">119010 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpCallLeg.continueProcessing on Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref547">119011 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpMultiPartyCall.createAndRouteCallLeg on Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref550">119012 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpMultiPartyCallControlManager.createCall on parlayGW</a></li>
+<li><a href="alr_alarms30.htm#sthref553">119013 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpMultiPartyCall.eventReportReq on Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref556">119014 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpCallLeg.getInfoReq on Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref559">119015 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpMultiPartyCall.release on the Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref562">119016 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpCallLeg.routeReq on the Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref565">119017 Plug-in Third Party Call Parlay MPCC: Failed to Invoke IpMultiPartyCall.createCallLeg on the Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref568">120100 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Start Call Notification Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref571">120101 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Activate Call Notification Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref574">120102 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Stop Call Notification Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref577">120103 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Deactivate Call Notification Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref580">120104 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Deliver Notification to Application</a></li>
+<li><a href="alr_alarms30.htm#sthref583">120105 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Deliver Recorded Message Location to Application</a></li>
+<li><a href="alr_alarms30.htm#sthref586">120106 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Deliver Collected Digits to Application</a></li>
+<li><a href="alr_alarms30.htm#sthref589">120107 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Delete Notification in the Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref592">120108 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Create Notification in the Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref595">120109 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Set Callback for Call Leg</a></li>
+<li><a href="alr_alarms30.htm#sthref598">120110 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Continue Processing the Call Leg</a></li>
+<li><a href="alr_alarms30.htm#sthref601">120111 Plug-in Parlay X 3.0 Call Notification Parlay MPCC: Failed to Create a Call Leg</a></li>
+<li><a href="alr_alarms30.htm#sthref604">121000 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Start AudioCallManagedPlug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref607">121001 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Activate AudioCallManagedPlug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref610">121002 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Stop AudioCallManagedPlug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref613">121003 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Deactivate AudioCallManagedPlug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref616">121030 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Update UI Call Status upon Receiving sendInfoRes</a></li>
+<li><a href="alr_alarms30.htm#sthref619">121031 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Update UI Call Status upon Receiving sendInfoErr</a></li>
+<li><a href="alr_alarms30.htm#sthref622">121032 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Update UI Call Status upon Receiving sendInfoAndCollectRes</a></li>
+<li><a href="alr_alarms30.htm#sthref625">121033 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Update UI Call Status upon Receiving sendInfoAndCollectErr</a></li>
+<li><a href="alr_alarms30.htm#sthref628">121034 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Update UI Call Status upon Receiving attachMediaRes</a></li>
+<li><a href="alr_alarms30.htm#sthref631">121035 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Update UI Call Status upon Receiving attachMediaErr</a></li>
+<li><a href="alr_alarms30.htm#sthref634">121036 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Update UI Call Status upon Receiving detachMediaRes</a></li>
+<li><a href="alr_alarms30.htm#sthref637">121037 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Update UI Call Status upon Receiving detachMediaErr</a></li>
+<li><a href="alr_alarms30.htm#sthref640">121060 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Invoke IpUIManager.createUICall on Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref643">121061 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Invoke IpUICall.sendInfoReq on Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref646">121062 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Invoke IpUICall.sendInfoAndCollectReq on Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref649">121063 Plug-in Parlay X 3.0 Audio Call Parlay: Failed to Invoke IpUICall.release on Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref652">121064 Plug-in Parlay X 3.0 Audio Call Parlay: Received IpAppUI.sendInfoErr Call from Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref655">121065 Plug-in Parlay X 3.0 Audio Call Parlay: Received IpAppUI.sendInfoAndCollectErr Call from Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref658">121066 Plug-in Parlay X 3.0 Audio Call Parlay: Received IpCallLeg.attachMediaErr Call from Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref661">121067 Plug-in Parlay X 3.0 Audio Call Parlay: Received IpCallLeg.detachMediaErr Call from Parlay Gateway</a></li>
+<li><a href="alr_alarms30.htm#sthref664">125101 SOAP to SOAP: Reactivation Timer Fired</a></li>
+<li><a href="alr_alarms30.htm#sthref667">125102 SOAP to SOAP: Reactivation Timer Breached</a></li>
+<li><a href="alr_alarms30.htm#sthref670">130100 Plug-in Subscriber Profile LDAP: Failed to Start the Subscriber Profile Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref673">130101 Plug-in Subscriber Profile LDAP: Failed to Activate the Subscriber Profile Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref676">130102 Plug-in Subscriber Profile LDAP: Failed to Stop the Subscriber Profile Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref679">130103 Plug-in Subscriber Profile LDAP: Failed to Deactivate the Subscriber Profile Managed Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref682">130104 Plug-in Subscriber Profile LDAP: Method Call "get" Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref685">130105 Plug-in Subscriber Profile LDAP: Method Call "getProfile" Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref688">131001 TPC INAP Plug-in: Failed to Establish Call</a></li>
+<li><a href="alr_alarms30.htm#sthref691">131002 TPC INAP Plug-in: Failed to Get Call Information</a></li>
+<li><a href="alr_alarms30.htm#sthref694">131003 TPC INAP Plug-in: Failed to End Call</a></li>
+<li><a href="alr_alarms30.htm#sthref697">131004 TPC INAP Plug-in: Failed to Cancel Call Request</a></li>
+<li><a href="alr_alarms30.htm#sthref700">131005 TPC INAP Plug-in: Failed to Initiate Call Attempt for First Participant toward the Network</a></li>
+<li><a href="alr_alarms30.htm#sthref703">131006 TPC INAP Plug-in: Failed to Initiate Call Attempt for Second Participant toward the Network</a></li>
+<li><a href="alr_alarms30.htm#sthref706">131007 TPC INAP Plug-in: Failed to Continue Call Processing towards the Network</a></li>
+<li><a href="alr_alarms30.htm#sthref709">131008 TPC INAP Plug-in: Failed to Abruptly Terminate an INAP Dialog</a></li>
+<li><a href="alr_alarms30.htm#sthref712">131009 TPC INAP Plug-in: Failed to Release a Call</a></li>
+<li><a href="alr_alarms30.htm#sthref715">132100 EWS Push Message Plug-in: Failed to Activate PushMessagePlug-in Instance</a></li>
+<li><a href="alr_alarms30.htm#sthref718">132103 EWS Push Message Plug-in: Failed to Deactivate PushMessagePluginInstance</a></li>
+<li><a href="alr_alarms30.htm#sthref721">132104 EWS Push Message Plug-in: sendPushMessage Method Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref724">132105 EWS Push Message Plug-in: sendResultNotificationMessage Method Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref727">390000: Request rejected by API Firewall</a></li>
+<li><a href="alr_alarms30.htm#sthref732">390002 Portal Server: Failed to Connect to Services Gatekeeper</a></li>
+<li><a href="alr_alarms30.htm#sthref735">390003 Portal Server: Failed to Connect to the Mail Server</a></li>
+<li><a href="alr_alarms30.htm#sthref738">390004 Portal Server: Got Error Response from the Analytics Server</a></li>
+<li><a href="alr_alarms30.htm#sthref741">400200 Native UCP Protocol Server Service [tryBuildPDU]: Data Was Thrown Away Because No Terminating ETX Was Received</a></li>
+<li><a href="alr_alarms30.htm#sthref744">400201 Native UCP Protocol Server Service [handleAckNackOnServerSide]: Unable to Release TRN for ack/nack Received on a Server Side Connection</a></li>
+<li><a href="alr_alarms30.htm#sthref747">400202 Native UCP Protocol Server Service [handleAckNackOnClientSide]: Unable to Release TRN for ack/nack Received on a Client Side Connection</a></li>
+<li><a href="alr_alarms30.htm#sthref750">400203 Native UCP Protocol Server Service [Unable to Send a nack]: Data Was Thrown Away Because No Terminating ETX Was Received</a></li>
+<li><a href="alr_alarms30.htm#sthref753">400204 Native UCP Protocol Server Service [sendSessionMgmtAck]: Unable to Send ack on a Session Management, Open Session Operation</a></li>
+<li><a href="alr_alarms30.htm#sthref756">400205 Native UCP Protocol Server Service [sendHeartbeatAck]: Unable to Send ack on a Heartbeat Request on a Server Side Connection</a></li>
+<li><a href="alr_alarms30.htm#sthref759">400206 Native UCP Protocol Server Service [deliverServerSideAckNackPDUToPlugin]: Unable to Call the Plug-in North Interface with ack/nack</a></li>
+<li><a href="alr_alarms30.htm#sthref762">400207 Native UCP Protocol Server Service [deliverClientSideAckNackPDUToPlugin]: Unable to Call the Plug-in South Interface with ack/nack</a></li>
+<li><a href="alr_alarms30.htm#sthref765">400300 Native UCP SMS Plug-in [handleAckNack]: Exception When Processing an MO ack/nack Request in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref768">400301 Native UCP SMS Plug-in [deliverSM]: Exception When Processing an MO Deliver SM Request in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref771">400302 Native UCP SMS Plug-in [deliveryNotification]: Exception When Processing an MO Delivery Notification Request in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref774">400310 Native UCP SMS Plug-in [handleAckNack]: Exception When Processing an MT ack/nack Request in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref777">400311 Native UCP SMS Plug-in [submitSM]: Exception When Processing an MT Submit SM in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref780">400312 Native UCP SMS Plug-in [openSession]: Exception When Processing an MT openSession Request in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref783">400400 Terminal Status/MAP: Not Connected to SS7 Stack</a></li>
+<li><a href="alr_alarms30.htm#sthref786">400401 Terminal Status/MAP: Connected to SS7 Stack</a></li>
+<li><a href="alr_alarms30.htm#sthref789">400402 Terminal Status/MAP: Dialog Lost, the Connection towards At Least One of the SS7 Backends May Be Lost</a></li>
+<li><a href="alr_alarms30.htm#sthref792">400403 Terminal Status/MAP: Received Remote User Status from the SS7 Stack</a></li>
+<li><a href="alr_alarms30.htm#sthref795">400404 Terminal Status/MAP: Not Possible to Create the ATI Message to the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref798">400405 Terminal Status/MAP: Not Possible to Create and Send the SS7 API Message</a></li>
+<li><a href="alr_alarms30.htm#sthref801">400406 Terminal Status/MAP: No Answer or a Faulty Message Was Received from the SS7 Stack</a></li>
+<li><a href="alr_alarms30.htm#sthref804">400407 Terminal Status/MAP: Error in the Connection towards the SS7 Stack</a></li>
+<li><a href="alr_alarms30.htm#sthref807">400410 Terminal Status/SIP: Failed to Send SUBSCRIBE Request</a></li>
+<li><a href="alr_alarms30.htm#sthref810">400411 Terminal Status/SIP: Error in SUBSCRIBE Response</a></li>
+<li><a href="alr_alarms30.htm#sthref813">400412 Terminal Status/SIP: Error in SIP NOTIFY Request</a></li>
+<li><a href="alr_alarms30.htm#sthref816">400413 Terminal Status/SIP: Status Notification Delivery Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref819">400414 Terminal Status/SIP: Status End Delivery Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref822">400415 Terminal Status/SIP: Status Error Delivery Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref825">400416 Terminal Status/SIP: Get Status Operation Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref828">400417 Terminal Status/SIP: Get Group Status Operation Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref831">400500 SMPP Server Service: Server Port Started</a></li>
+<li><a href="alr_alarms30.htm#sthref834">400501 SMPP Server Service: Server Port Stopped</a></li>
+<li><a href="alr_alarms30.htm#sthref837">400502 SMPP Server Service: Server Connection Established</a></li>
+<li><a href="alr_alarms30.htm#sthref840">400503 SMPP Server Service: Server Connection Closed</a></li>
+<li><a href="alr_alarms30.htm#sthref843">400504 SMPP Server Service: Client Connection Established</a></li>
+<li><a href="alr_alarms30.htm#sthref846">400505 SMPP Server Service: Client Connection Closed</a></li>
+<li><a href="alr_alarms30.htm#sthref849">400506 SMPP Server Service: Client Connection Reset</a></li>
+<li><a href="alr_alarms30.htm#sthref852">400507 SMPP Server Service: Client Connection Reconnect Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref855">400508 SMPP Server Service: ChannelProcessor PeerConnectionIds Empty</a></li>
+<li><a href="alr_alarms30.htm#sthref858">400509 SMPP Server Service: NorthChannelProcessor PeerPluginInstanceIds Empty</a></li>
+<li><a href="alr_alarms30.htm#sthref861">400510 SMPP Server Service: PluginInstanceInfo ClientConnectionIds Empty</a></li>
+<li><a href="alr_alarms30.htm#sthref864">400511 SMPP Server Service: PluginInstanceInfo ServerConnectionIds Empty</a></li>
+<li><a href="alr_alarms30.htm#sthref867">400512 SMPP Server Service: MO Request Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref870">400513 SMPP Server Service: MT Request Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref873">400514 SMPP Server Service: MO Request Failed</a></li>
+<li><a href="alr_alarms30.htm#sthref876">400515 No Application Receiver Connection Found; Rejecting DeliverSm with MO SMS</a></li>
+<li><a href="alr_alarms30.htm#sthref879">400600 Native SMPP: Exception When Processing a submitSmResponse in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref882">400601 Native SMPP: Exception When Processing a submitMultiResponse in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref885">400602 Native SMPP: Exception When Processing a cancelSmResponse in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref888">400603 Native SMPP: Exception When Processing a querySmResponse in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref891">400604 Native SMPP: Exception When Processing a replaceSmResponse in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref894">400605 Native SMPP: Exception When Processing a deliverSm for MO</a></li>
+<li><a href="alr_alarms30.htm#sthref897">400610 Native SMPP: Exception When Processing a Bind in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref900">400611 Native SMPP: Exception When Processing a submitSm in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref903">400612 Native SMPP: Exception When Processing a submitMulti in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref906">400613 Native SMPP: Exception When Processing a cancelSm in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref909">400614 Native SMPP: Exception When Processing a querySm in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref912">400615 Native SMPP: Exception When Processing a replaceSm in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref915">400616 Native SMPP: Exception When Processing a deliverSmResponse for MO in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref918">400617 Native SMPP: Exception When processing a deliverSmResponse for DeliveryReceipt in the Plug-in</a></li>
+<li><a href="alr_alarms30.htm#sthref921">401050 Native MM7 Plug-in: Exception Thrown on Submit Request</a></li>
+<li><a href="alr_alarms30.htm#sthref924">401051 Native MM7 Plug-in: Exception Thrown When the MMSC Tried to Deliver a Network-triggered Message Using the Incorrect XSD Version</a></li>
+<li><a href="alr_alarms30.htm#sthref927">401052 Native MM7 Plug-in: Exception Thrown When the MMSC Tried to Deliver a Delivery Report Using the Incorrect XSD Version</a></li>
+<li><a href="alr_alarms30.htm#sthref930">401053 Native MM7 Plug-in: Exception Thrown When the MMSC Tried to Deliver a Read Reply Report Using the Incorrect XSD Version</a></li>
+<li><a href="alr_alarms30.htm#sthref933">406010 Audio Call/SIP: Media Server Resource Not Found</a></li>
+<li><a href="alr_alarms30.htm#sthref936">88800001 Failed to Execute Group Manager APIs</a></li>
+<li><a href="alr_alarms30.htm#sthref939">88800002 Failed to Execute Group APIs</a></li>
+<li><a href="alr_alarms30.htm#sthref942">88800003 Failed to Execute Member APIs</a></li>
+<li><a href="alr_alarms30.htm#sthref945">981001 Failed to Get Email Message Delivery Status</a></li>
+<li><a href="alr_alarms30.htm#sthref948">981002 Failed to Poll Received New Mail</a></li>
+<li><a href="alr_alarms30.htm#sthref951">981003 Failed to Poll Received Email Content</a></li>
+<li><a href="alr_alarms30.htm#sthref954">981004 Failed to Send Email Messages to Email Server</a></li>
+<li><a href="alr_alarms30.htm#sthref957">981005 Failed to Deliver Received Email Notification</a></li>
+<li><a href="alr_alarms30.htm#sthref960">981006 Failure to Deliver Email Delivery Receipt</a></li>
+<li><a href="alr_alarms30.htm#sthref963">981007 Failed to Start Email Message Notification</a></li>
+<li><a href="alr_alarms30.htm#sthref966">981007 Failed to Start Email Message Notification</a></li>
+<li><a href="alr_alarms30.htm#sthref969">981008 Failed to Stop Email Message Notification</a></li>
+<li><a href="alr_alarms30.htm#sthref972">981009 Failed to Connect to Email Server (SMTP)</a></li>
+<li><a href="alr_alarms30.htm#sthref975">981010 Failed to Connect to Email Server (IMAP)</a></li>
+<li><a href="alr_alarms30.htm#sthref978">199900 Default: Default Exception</a></li>
+<li><a href="alr_alarms30.htm#sthref981">981011 Failed to Connect to Email Server(POP3)</a></li>
+<li><a href="alr_alarms30.htm#sthref984">98000001 Failed to Connect to the Diameter Server</a></li>
+<li><a href="alr_alarms30.htm#sthref987">98000002 Failed to Apply QoS</a></li>
+<li><a href="alr_alarms30.htm#sthref990">98000003 Failed to Get QoS Status</a></li>
+<li><a href="alr_alarms30.htm#sthref993">98000004 Failed to Modify QoS</a></li>
+<li><a href="alr_alarms30.htm#sthref996">98000005 Failed to Remove QoS</a></li>
+<li><a href="alr_alarms30.htm#sthref999">98000006 Error on QoS Expire</a></li>
+<li><a href="alr_alarms30.htm#sthref1002">98000007 Failed to Register QoS Notification</a></li>
+<li><a href="alr_alarms30.htm#sthref1005">98000008 Failed to Unregister QoS Notification</a></li>
+<li><a href="alr_alarms30.htm#sthref1008">98000009 Failed to Disconnect to the Diameter Server</a></li>
+</ul>
+</div>
+<!-- class="ind" -->
+<!-- Start Footer -->
+</div>
+<!-- add extra wrapper close div-->
+<footer><!--
+<hr />
+<table class="cellalignment176">
+<tr>
+<td class="cellalignment185">
+<table class="cellalignment189">
+<tr>
+<td class="cellalignment180"><a href="title.htm"><img width="24" height="24" src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td class="cellalignment-copyrightlogo"><img width="144" height="18" src="../../dcommon/gifs/oracle.gif" alt="Oracle" /><br />
+Copyright&nbsp;&copy;&nbsp;2007, 2016,&nbsp;Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved.<br />
+<a href="../../dcommon/html/cpyr.htm">Legal Notices</a></td>
+<td class="cellalignment187">
+<table class="cellalignment188">
+<tr>
+<td class="cellalignment180"><a href="../../index.htm"><img width="24" height="24" src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" /><br />
+<span class="icon">Home</span></a></td>
+<td class="cellalignment180"><a href="../../dcommon/html/feedback.htm"><img width="24" height="24" src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" /><br />
+<span class="icon">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+--></footer>
+<noscript>
+<p>Scripting on this page enhances content navigation, but does not change the content in any way.</p>
+</noscript>
+</body>
+</html>

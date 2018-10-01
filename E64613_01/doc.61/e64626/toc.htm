@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Communications Services Gatekeeper Extension Developer's Guide - Contents</title>
+<meta name="generator" content="Oracle DARB XHTML Converter (Mode = document) - Merged Version 1086" />
+<meta name="dcterms.created" content="2016-09-27T2:19:28Z" />
+<meta name="robots" content="all" />
+<meta name="dcterms.title" content="Communications Services Gatekeeper Extension Developer's Guide" />
+<meta name="dcterms.identifier" content="E64626-01" />
+<meta name="dcterms.isVersionOf" content="SGPDS" />
+<meta name="dcterms.rights" content="Copyright&nbsp;&copy;&nbsp;2015, 2016,&nbsp;Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved." />
+<link rel="Start" href="../../index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="../../dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+
+<script type="application/javascript"   src="../../dcommon/js/headfoot.js"></script>
+<script type="application/javascript"   src="../../nav/js/doccd.js"></script>
+<link rel="Next" href="title.htm" title="Next" type="text/html" />
+<link rel="alternate" href="../e64626.pdf" title="PDF version" type="application/pdf" />
+<link rel="alternate" href="../E64626-01.epub" title="ePub version" type="application/epub+zip" />
+<link rel="alternate" href="../E64626-01.mobi" title="Mobipocket version" type="application/x-mobipocket-ebook" />
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<link rel="stylesheet" href="../../dcommon/css/fusiondoc.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/header.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/footer.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/fonts.css">
+<link rel="stylesheet" href="../../dcommon/css/foundation.css">
+<link rel="stylesheet" href="../../dcommon/css/codemirror.css">
+<link rel="stylesheet" type="text/css" title="Default" href="../../nav/css/html5.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-480-tablet.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-768-laptop.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-1140-deskop.css">
+<script type="application/javascript"  src="../../dcommon/js/modernizr.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/codemirror.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/jquery.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/foundation.min.js"></script>
+<script type="application/javascript"  src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552992c80ef99c8d" async="async"></script>
+<script type="application/javascript"  src="../../dcommon/js/jqfns.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/ohc-inline-videos.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="../../dcommon/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet"  href="../../dcommon/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet"  href="../../dcommon/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+<body>
+<a href="#BEGIN" class="accessibility-top skipto" tabindex="0">Go to main content</a><header><!--
+<div class="zz-skip-header"><a id="top" href="#BEGIN">Go to main content</a>--></header>
+<div class="row" id="CONTENT">
+<div class="IND large-9 medium-8 columns" dir="ltr">
+<a id="BEGIN" name="BEGIN"></a>
+<span id="PAGE" style="display:none;">1/21</span> <!-- End Header -->
+<h1 class="toc">Contents</h1>
+<h2 class="tocheader"><a href="title.htm">Title and Copyright Information</a></h2>
+<h2 class="tocheader"><a href="preface.htm#sthref2">Preface</a></h2>
+<ul style="list-style-type:none">
+<li><a href="preface.htm#sthref3">Audience</a></li>
+<li><a href="preface.htm#sthref4">Documentation Accessibility</a></li>
+<li><a href="preface.htm#sthref6">Related Documents</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_intro.htm#i999098"><span class="secnum">1</span> Overview of the Platform Development Studio</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_intro.htm#sthref7">About Platform Development Studio</a></li>
+<li><a href="pds_intro.htm#i999749">About Creating Communication Services and Plug-ins</a>
+<ul style="list-style-type:none">
+<li><a href="pds_intro.htm#i999145">About Platform Development Studio Wizard</a></li>
+<li><a href="pds_intro.htm#i999149">About the Example Communication Service</a></li>
+<li><a href="pds_intro.htm#i999153">About Testing New Communication Services</a></li>
+</ul>
+</li>
+<li><a href="pds_intro.htm#i999754">Integrating and Customizing Communication Services</a>
+<ul style="list-style-type:none">
+<li><a href="pds_intro.htm#i999968">Intercepting Requests with Service Interceptors</a></li>
+<li><a href="pds_intro.htm#i999973">Creating Subscriber-centric Policies with SLAs</a></li>
+<li><a href="pds_intro.htm#i999998">Integrating Communication Services with External Systems</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_csdesc.htm#i1155670"><span class="secnum">2</span> Understanding Communication Service Components</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_csdesc.htm#i1156096">Understanding Communication Service Components</a></li>
+<li><a href="pds_csdesc.htm#i1155671">Understanding Communication Service Plug-ins</a>
+<ul style="list-style-type:none">
+<li><a href="pds_csdesc.htm#sthref10">Plug-in Service and Plug-in Instance</a></li>
+<li><a href="pds_csdesc.htm#i1145245">Understanding the Plug-in States</a></li>
+<li><a href="pds_csdesc.htm#sthref14">Understanding the PluginPool</a></li>
+<li><a href="pds_csdesc.htm#sthref15">Obtaining Interfaces and Methods for a Plugin</a></li>
+<li><a href="pds_csdesc.htm#sthref16">Understanding the Plug-in APIs</a>
+<ul style="list-style-type:none">
+<li><a href="pds_csdesc.htm#sthref17">Interface: Plug-in</a></li>
+<li><a href="pds_csdesc.htm#i1155437">Interface: PluginNorth</a></li>
+<li><a href="pds_csdesc.htm#i1149540">Interface: PluginNorthCallBack</a></li>
+<li><a href="pds_csdesc.htm#i1149568">Interface: PluginSouth</a></li>
+<li><a href="pds_csdesc.htm#i1151285">Interface: ManagedPluginService</a></li>
+<li><a href="pds_csdesc.htm#sthref18">Interface: PluginService</a></li>
+<li><a href="pds_csdesc.htm#sthref19">Interface: PluginInstanceFactory</a></li>
+<li><a href="pds_csdesc.htm#sthref20">Interface: PluginServiceLifecycle</a></li>
+<li><a href="pds_csdesc.htm#i1148208">Interface: ManagedPluginInstance</a></li>
+<li><a href="pds_csdesc.htm#sthref21">Interface: PluginInstance</a></li>
+<li><a href="pds_csdesc.htm#sthref22">Interface: PluginInstanceLifecycle</a></li>
+<li><a href="pds_csdesc.htm#CHDCCCCH">Class: RequestFactory</a></li>
+<li><a href="pds_csdesc.htm#i1149362">Class: CallbackFactory</a></li>
+<li><a href="pds_csdesc.htm#i1149125">Interface: Callback</a></li>
+<li><a href="pds_csdesc.htm#i1148078">Class: RequestInfo</a></li>
+<li><a href="pds_csdesc.htm#i1148450">Class: ServiceType</a></li>
+</ul>
+</li>
+<li><a href="pds_csdesc.htm#sthref23">Plug-in Context APIs</a>
+<ul style="list-style-type:none">
+<li><a href="pds_csdesc.htm#i1148469">Interface: ContextMapperInfo</a></li>
+<li><a href="pds_csdesc.htm#i1148465">Interface: RequestContext</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_csdesc.htm#i1155672">Managing Communication Services</a></li>
+<li><a href="pds_csdesc.htm#CHDHIHAA">Managing Communication Service Access with SLAs</a></li>
+<li><a href="pds_csdesc.htm#i1155673">Sharing Libraries Among Communication Service Plug-ins</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_core.htm#i1148024"><span class="secnum">3</span> Developing Communication Services</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_core.htm#sthref24">Tips for Creating or Extending Communication Services</a></li>
+<li><a href="pds_core.htm#i1129038">Communicating with Container Services</a>
+<ul style="list-style-type:none">
+<li><a href="pds_core.htm#i1140329">Retrieving Implementation Instances Using InstanceFactory</a></li>
+<li><a href="pds_core.htm#i1140330">Obtaining JNDI Context with ClusterHelper</a></li>
+<li><a href="pds_core.htm#i1140351">Broadcasting Events</a></li>
+<li><a href="pds_core.htm#i1147542">Generating Statistics with Statistics Service</a>
+<ul style="list-style-type:none">
+<li><a href="pds_core.htm#sthref26">Generating Standard Statistics</a></li>
+<li><a href="pds_core.htm#sthref27">Generating Statistics when Exceptions are Thrown</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_core.htm#i1148025">Using the Plug-in Packages</a></li>
+<li><a href="pds_core.htm#i1148026">Understanding Communication Service Management</a></li>
+<li><a href="pds_core.htm#i1129068">Understanding EDRs</a></li>
+<li><a href="pds_core.htm#i1141563">Enforcing Service Level Agreements</a></li>
+<li><a href="pds_core.htm#i1147866">Correlating Services</a>
+<ul style="list-style-type:none">
+<li><a href="pds_core.htm#sthref28">About Service Correlation Identifiers</a></li>
+<li><a href="pds_core.htm#i1134023">Managing Service Correlation Identifiers</a>
+<ul style="list-style-type:none">
+<li><a href="pds_core.htm#sthref29">Creating a Custom Service Correlation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_core.htm#i1136890">Using Parameter Tunneling</a></li>
+<li><a href="pds_core.htm#i1136732">Understanding Service Gatekeeper Storage Services</a>
+<ul style="list-style-type:none">
+<li><a href="pds_core.htm#i1119402">Storing Configuration Data with ConfigurationStore</a>
+<ul style="list-style-type:none">
+<li><a href="pds_core.htm#sthref31">Interfaces</a></li>
+</ul>
+</li>
+<li><a href="pds_core.htm#i1119421">Storing Traffic Data with StorageService</a>
+<ul style="list-style-type:none">
+<li><a href="pds_core.htm#sthref34">Store configuration file</a></li>
+<li><a href="pds_core.htm#sthref36">&lt;store&gt;</a></li>
+<li><a href="pds_core.htm#sthref38">&lt;db_table&gt;</a></li>
+<li><a href="pds_core.htm#sthref41">&lt;query&gt;</a></li>
+<li><a href="pds_core.htm#i1146759">&lt;provider-mapping&gt;</a></li>
+<li><a href="pds_core.htm#i1135219">&lt;providers&gt;</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_core.htm#i1148027">Sharing Common Libraries</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_esexample.htm#i1127866"><span class="secnum">4</span> Communication Service Example</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#i1121582">Overview of the Example Communication Service</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#i1127873">High-level Flow for sendData (Flow A)</a></li>
+<li><a href="pds_esexample.htm#i1127876">High-level Flow for startNotification and stopNotification (Flow B)</a></li>
+<li><a href="pds_esexample.htm#i1127877">High-level flow for notifyDataReception (Flow C)</a></li>
+</ul>
+</li>
+<li><a href="pds_esexample.htm#i1127872">Interfaces</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#i1127878">Web Service Interface Definition</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#sthref46">Interface: SendData</a></li>
+<li><a href="pds_esexample.htm#sthref51">Interface: NotificationManager</a></li>
+<li><a href="pds_esexample.htm#sthref60">Interface: NotificationListener</a></li>
+</ul>
+</li>
+<li><a href="pds_esexample.htm#i1127879">Network Interface Definition</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#sthref65">sendDataToNetwork</a></li>
+<li><a href="pds_esexample.htm#sthref68">receiveData</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_esexample.htm#i1127874">Directory Structure</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#sthref71">Directories for WSDL</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#sthref72">Application-initiated traffic</a></li>
+<li><a href="pds_esexample.htm#sthref73">Network-triggered traffic</a></li>
+</ul>
+</li>
+<li><a href="pds_esexample.htm#sthref74">Directories for Java Source</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#i1117196">Communication Service Common</a></li>
+<li><a href="pds_esexample.htm#i1117200">Plug-in</a></li>
+</ul>
+</li>
+<li><a href="pds_esexample.htm#sthref75">Directories for resources</a></li>
+<li><a href="pds_esexample.htm#sthref76">Directories for Configuration of Plug-in</a></li>
+<li><a href="pds_esexample.htm#sthref77">Directories for Build and Configuration of Builds</a></li>
+<li><a href="pds_esexample.htm#sthref78">Directories for Classes, JAR, and EAR Files</a></li>
+</ul>
+</li>
+<li><a href="pds_esexample.htm#i1127875">Classes</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#i1119524">Communication Service Common</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#i1115956">ExceptionType</a></li>
+<li><a href="pds_esexample.htm#i1115691">NotificationManagerPluginFactory</a></li>
+</ul>
+</li>
+<li><a href="pds_esexample.htm#i1131884">Plug-in Layer</a>
+<ul style="list-style-type:none">
+<li><a href="pds_esexample.htm#i1131886">ContextTranslatorImpl</a></li>
+<li><a href="pds_esexample.htm#i1113984">ExamplePluginService</a></li>
+<li><a href="pds_esexample.htm#sthref79">ExamplePluginInstance</a></li>
+<li><a href="pds_esexample.htm#i1116153">ConfigurationStoreHandler</a></li>
+<li><a href="pds_esexample.htm#i1127870">ExampleMBean</a></li>
+<li><a href="pds_esexample.htm#i1126723">Management</a></li>
+<li><a href="pds_esexample.htm#i1112248">NotificationHandlerNorth</a></li>
+<li><a href="pds_esexample.htm#i1112187">NetworkToNotificationPluginAdapter</a></li>
+<li><a href="pds_esexample.htm#i1116237">NetworkToNotificationPluginAdapterImpl</a></li>
+<li><a href="pds_esexample.htm#i1132390">NotificationManagerPluginNorth</a></li>
+<li><a href="pds_esexample.htm#i1116322">SendDataPluginNorth</a></li>
+<li><a href="pds_esexample.htm#i1127869">SendDataPluginSouth</a></li>
+<li><a href="pds_esexample.htm#i1116411">SendDataPluginToNetworkAdapter</a></li>
+<li><a href="pds_esexample.htm#i1116442">SendDataPluginToNetworkAdapterImpl</a></li>
+<li><a href="pds_esexample.htm#i1116447">FilterImpl</a></li>
+<li><a href="pds_esexample.htm#i1116467">NotificationData</a></li>
+<li><a href="pds_esexample.htm#i1116468">StoreHelper</a></li>
+<li><a href="pds_esexample.htm#i1124135">ExamplePluginInstance</a></li>
+<li><a href="pds_esexample.htm#sthref80">ExamplePluginService</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_esexample.htm#i1122660">Store configuration</a></li>
+<li><a href="pds_esexample.htm#i1127888">SLA Example</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_eclipswiz.htm#i1105965"><span class="secnum">5</span> Creating Extensions with Platform Development Studio Wizard</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_eclipswiz.htm#i1111292">About Platform Development Studio Wizard</a></li>
+<li><a href="pds_eclipswiz.htm#i1105554">Configuring Platform Development Studio Wizard</a>
+<ul style="list-style-type:none">
+<li><a href="pds_eclipswiz.htm#i1105415">Prerequisite Software</a></li>
+<li><a href="pds_eclipswiz.htm#BABGCBHJ">Configuring Platform Development Studio Wizard Directories and Logging Levels</a></li>
+<li><a href="pds_eclipswiz.htm#sthref82">Ensuring Platform Development Studio Wizard Uses JRE 1.7</a></li>
+</ul>
+</li>
+<li><a href="pds_eclipswiz.htm#CHDEBIDJ">Generating an Interceptor Module</a></li>
+<li><a href="pds_eclipswiz.htm#sthref84">Generating an OAuth 2.0 Extension Handler</a></li>
+<li><a href="pds_eclipswiz.htm#CHDIIIFJ">Generating a Platform Test Environment Custom Module</a></li>
+<li><a href="pds_eclipswiz.htm#sthref86">Generating a Web Service API Exposure Project</a></li>
+<li><a href="pds_eclipswiz.htm#CHDDCBGE">Adding and Removing Extension Plug-ins</a>
+<ul style="list-style-type:none">
+<li><a href="pds_eclipswiz.htm#i1099419">Adding a Plug-in to a Services Gatekeeper Project</a></li>
+<li><a href="pds_eclipswiz.htm#i1105556">Removing a Plug-in from a Communication Service</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_project.htm#i1132645"><span class="secnum">6</span> Understanding the Communication Service Project Output</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1107508">About the Generated Communication Service</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1107510">About the Communication Service Project</a></li>
+<li><a href="pds_project.htm#i1123922">About the RESTFul Service Facade</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#sthref89">Default RESTful Service Facade</a></li>
+<li><a href="pds_project.htm#i1128636">Customize the RESTful Service Facade</a></li>
+<li><a href="pds_project.htm#sthref92">Custom URL Mapping Example</a></li>
+<li><a href="pds_project.htm#i1128922">Using a Custom Handler Chain</a></li>
+</ul>
+</li>
+<li><a href="pds_project.htm#i1123208">About the Communication Service Plug-in</a></li>
+<li><a href="pds_project.htm#i1115272">About the SOAP2SOAP Plug-in</a></li>
+<li><a href="pds_project.htm#sthref93">Generated Artifacts for a SOAPSOAP Communication Service</a></li>
+<li><a href="pds_project.htm#CBBGGABC">Properties for SOAP2SOAP Plug-ins</a></li>
+<li><a href="pds_project.htm#i1122431">About the SIP Plug-in</a></li>
+<li><a href="pds_project.htm#i1131618">About the Diameter Plug-in</a></li>
+</ul>
+</li>
+<li><a href="pds_project.htm#i1132001">Generated classes for a Plug-in</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1114894">Interface: ManagedPluginService</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1115835">Interface: PluginService</a></li>
+<li><a href="pds_project.htm#i1115842">Interface: PluginInstanceFactory</a></li>
+<li><a href="pds_project.htm#i1115849">Interface: PluginServiceLifecycle</a></li>
+</ul>
+</li>
+<li><a href="pds_project.htm#i1114639">PluginService</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1109254">ManagedPlugin Skeleton</a></li>
+</ul>
+</li>
+<li><a href="pds_project.htm#i1117913">PluginInstance</a></li>
+<li><a href="pds_project.htm#i1107799">PluginNorth</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1115867">PluginNorth skeleton</a></li>
+</ul>
+</li>
+<li><a href="pds_project.htm#i1107809">RequestFactory Skeleton</a></li>
+</ul>
+</li>
+<li><a href="pds_project.htm#i1117098">Generated classes for a SOAP2SOAP Plug-in</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1116965">Comparison with a Non-SOAP2SOAP Plug-in</a></li>
+<li><a href="pds_project.htm#i1116782">Client Stubs</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1116801"><span class="italic">Web Services Interface</span>_Stub</a></li>
+<li><a href="pds_project.htm#i1116810"><span class="italic">Web Services Interface</span></a></li>
+<li><a href="pds_project.htm#i1116819"><span class="italic">Web Services Interface</span>Service_Impl</a></li>
+<li><a href="pds_project.htm#i1116824"><span class="italic">Web Services Interface</span>Service</a></li>
+</ul>
+</li>
+<li><a href="pds_project.htm#i1116966">PluginInstance</a></li>
+<li><a href="pds_project.htm#i1116975">PluginNorth</a></li>
+<li><a href="pds_project.htm#i1116984">PluginSouth</a></li>
+<li><a href="pds_project.htm#i1116999">RequestFactory</a></li>
+</ul>
+</li>
+<li><a href="pds_project.htm#CBBBADCJ">HTTPProxyMBean Reference</a></li>
+<li><a href="pds_project.htm#sthref99">Adding a SOAP2SOAP Communication Services</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#sthref100">About SOAP2SOAP Communication Services</a></li>
+<li><a href="pds_project.htm#sthref101">Generated Artifacts for a SOAP2SOAP Communication Service</a></li>
+<li><a href="pds_project.htm#sthref103">Managing and Configuring SOAP2SOAP Communication Services</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#CBBDJFHA">Properties for SOAP2SOAP Plug-ins</a></li>
+<li><a href="pds_project.htm#CBBHFAEF">Provisioning Workflow for SOAP2SOAP Communication Services</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_project.htm#i1114546">Build Files and Targets for a Communication Service Project</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1114548">Main Build File</a></li>
+<li><a href="pds_project.htm#i1117588">Communication Service Common Build File</a></li>
+<li><a href="pds_project.htm#i1114563">Plug-in Build File</a></li>
+<li><a href="pds_project.htm#i1121073">Ant Tasks</a>
+<ul style="list-style-type:none">
+<li><a href="pds_project.htm#i1120789">cs_gen</a></li>
+<li><a href="pds_project.htm#i1120812">plugin_gen</a></li>
+<li><a href="pds_project.htm#i1120813">cs_package</a></li>
+<li><a href="pds_project.htm#i1121045">javadoc2annotation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_sfexample_sip.htm#i1131305"><span class="secnum">7</span> Service Enabler Example with SIP plug-in</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#i1131308">Overview of the Service Enabler Example with SIP Plug-in</a>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#i1131310">High-level Flow for sendData (Flow A)</a></li>
+<li><a href="pds_sfexample_sip.htm#i1131313">High-level Flow for startNotification and stopNotification (Flow B)</a></li>
+<li><a href="pds_sfexample_sip.htm#i1131314">High-level flow for notifyDataReception (Flow C)</a></li>
+</ul>
+</li>
+<li><a href="pds_sfexample_sip.htm#i1131309">Understanding the SIP Example Interfaces</a>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#i1131315">Web Service Interface Definition</a></li>
+<li><a href="pds_sfexample_sip.htm#i1131316">Network Interface Definition</a></li>
+</ul>
+</li>
+<li><a href="pds_sfexample_sip.htm#i1131311">SIP Example Directory Structure</a>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#sthref117">Differences Compared to the Example netex Plug-in</a></li>
+</ul>
+</li>
+<li><a href="pds_sfexample_sip.htm#sthref118">SIP Example Configuration Files and Artifacts</a></li>
+<li><a href="pds_sfexample_sip.htm#i1131312">SIP Example Classes</a>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#sthref119">ExampleServlet</a>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#sthref120">public void init()</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref121">protected void doMessage()</a></li>
+</ul>
+</li>
+<li><a href="pds_sfexample_sip.htm#i1129831">ExampleSipHelper</a>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#sthref122">public void init(ServletContext servletContext)</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref123">public SipSessionsUtil getSessionsUtil()</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref124">public SipFactory getSipFactory()</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref125">public synchronized void registerCallback(NetworkCallback callback)</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref126">public synchronized void unregisterCallback(NetworkCallback callback)</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref127">public synchronized void notifyCallbacks(String fromAddress, String toAddress, String message)</a></li>
+</ul>
+</li>
+<li><a href="pds_sfexample_sip.htm#sthref128">SendDataPluginSouth</a>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#sthref129">public SendDataPluginSouth()</a></li>
+<li><a href="pds_sfexample_sip.htm#i1131306">public void send(String address, String data)</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref130">public String resolveAppInstanceGroupdId(ContextMapperInfo info)</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref131">public void prepareRequestContext(RequestContext ctx, ContextMapperInfo info)</a></li>
+</ul>
+</li>
+<li><a href="pds_sfexample_sip.htm#sthref132">NotificationHandlerSouth</a>
+<ul style="list-style-type:none">
+<li><a href="pds_sfexample_sip.htm#sthref133">public NotificationHandlerNorth()</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref134">public void receiveData(@ContextKey(EdrConstants.FIELD_ORIGINATING_ADDRESS) String fromAddress, @ContextKey(EdrConstants.FIELD_DESTINATION_ADDRESS) @MapperInfo(C) String toAddress, String data)</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref135">public String resolveAppInstanceGroupdId(ContextMapperInfo info)</a></li>
+<li><a href="pds_sfexample_sip.htm#sthref136">public void prepareRequestContext(RequestContext ctx, ContextMapperInfo info)</a></li>
+</ul>
+</li>
+<li><a href="pds_sfexample_sip.htm#sthref137">ExampleMBean</a></li>
+</ul>
+</li>
+<li><a href="pds_sfexample_sip.htm#i1131333">SIP Example SLA</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_smpp.htm#CHDDHFBJ"><span class="secnum">8</span> Using the SMPP API</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_smpp.htm#sthref138">Understanding the SMPP API</a>
+<ul style="list-style-type:none">
+<li><a href="pds_smpp.htm#CHDCAJEH">SMPP Service Interfaces</a></li>
+<li><a href="pds_smpp.htm#CHDBFFCA">SMPPPluginSouth</a></li>
+<li><a href="pds_smpp.htm#CHDEFJBB">SMPPPluginNorth</a></li>
+</ul>
+</li>
+<li><a href="pds_smpp.htm#sthref141">Additional Information You Need to Build an SMPP Plug-in</a></li>
+<li><a href="pds_smpp.htm#sthref142">Creating a Custom SMPP Plug-in</a></li>
+<li><a href="pds_smpp.htm#sthref143">Configuration Settings Affecting SMPP Connections</a></li>
+<li><a href="pds_smpp.htm#sthref144">About the SMPP Interfaces</a>
+<ul style="list-style-type:none">
+<li><a href="pds_smpp.htm#CHDDDBGD">oracle.ocsg.protocol.common</a></li>
+<li><a href="pds_smpp.htm#CHDGGBBF">oracle.ocsg.protocol.smpp.service</a>
+<ul style="list-style-type:none">
+<li><a href="pds_smpp.htm#CHDIDCIA">SMPPService</a></li>
+<li><a href="pds_smpp.htm#CHDDEICB">SMPPServiceNorth</a></li>
+<li><a href="pds_smpp.htm#CHDCFAHH">SMPPServiceSouth</a></li>
+</ul>
+</li>
+<li><a href="pds_smpp.htm#CHDJIABI">oracle.ocsg.protocol.smpp.plugin</a>
+<ul style="list-style-type:none">
+<li><a href="pds_smpp.htm#sthref145">SMPPPluginNorth</a></li>
+<li><a href="pds_smpp.htm#sthref146">SMPPPluginSouth</a></li>
+<li><a href="pds_smpp.htm#CHDIJBJH">SMPPPluginMBean</a></li>
+</ul>
+</li>
+<li><a href="pds_smpp.htm#CHDEDAAE">oracle.ocsg.protocol.smpp.common</a></li>
+<li><a href="pds_smpp.htm#CHDCIHFC">oracle.ocsg.protocol.smpp.event</a></li>
+</ul>
+</li>
+<li><a href="pds_smpp.htm#CHDEIHBA">Using the SMPP APIs</a>
+<ul style="list-style-type:none">
+<li><a href="pds_smpp.htm#CHDJEICI">Processing a BIND Request from an Application</a></li>
+<li><a href="pds_smpp.htm#CHDFDABC">Processing a SUBMIT_SM Request from an Application</a></li>
+<li><a href="pds_smpp.htm#CHDDDFEA">Processing a SUBMIT_SM Response from the SMSC</a></li>
+<li><a href="pds_smpp.htm#CHDBGJAD">Processing a DELIVER_SM Request from the SMSC</a></li>
+<li><a href="pds_smpp.htm#CHDCHAHC">Processing a DELIVER_SM Response from an Application</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_ucp.htm#BHAEBDDB"><span class="secnum">9</span> Using the UCP API</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_ucp.htm#sthref147">Understanding the UCP Protocol API</a>
+<ul style="list-style-type:none">
+<li><a href="pds_ucp.htm#sthref149">UCP Protocol Server Service</a></li>
+<li><a href="pds_ucp.htm#sthref150">Understanding the Connection Information Manager Service</a></li>
+<li><a href="pds_ucp.htm#sthref152">PluginNorth</a></li>
+<li><a href="pds_ucp.htm#sthref153">PluginSouth</a></li>
+</ul>
+</li>
+<li><a href="pds_ucp.htm#sthref154">Additional Information You Will Need</a></li>
+<li><a href="pds_ucp.htm#sthref155">Procedure for Creating a Customized UCP Plug-in</a></li>
+<li><a href="pds_ucp.htm#CEGHCBGI">About the UCP Protocol Server Service Interfaces</a>
+<ul style="list-style-type:none">
+<li><a href="pds_ucp.htm#CEGBBEJD">oracle.ocsg.protocol.common</a></li>
+<li><a href="pds_ucp.htm#CEGIBCJH">oracle.ocsg.protocol.ucp</a></li>
+<li><a href="pds_ucp.htm#CEGBHIIJ">oracle.ocsg.protocol.ucp.pdu</a></li>
+</ul>
+</li>
+<li><a href="pds_ucp.htm#sthref157">Connection Mapping</a></li>
+<li><a href="pds_ucp.htm#sthref158">OAM Attributes Affecting UCP Network Connectivity</a></li>
+<li><a href="pds_ucp.htm#sthref159">Using the APIs</a>
+<ul style="list-style-type:none">
+<li><a href="pds_ucp.htm#CEGJFCHH">Sending a submitSm Request to the SMSC</a></li>
+<li><a href="pds_ucp.htm#CEGIJEEC">Creating a UCP PDU</a></li>
+<li><a href="pds_ucp.htm#CEGCJCEF">Sending an openSession Request to the SMSC</a></li>
+<li><a href="pds_ucp.htm#CEGJAGAF">Sending a DeliverSm to an Application</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_interceptors.htm#i1121475"><span class="secnum">10</span> Using Service Interceptors to Manipulate Requests</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#i1117559">Understanding Service Interceptors in Services Gatekeeper</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref160">Understanding How Requests are Triggered</a></li>
+<li><a href="pds_interceptors.htm#sthref162">Understanding How the Plug-in Manager Works with Interceptors</a></li>
+<li><a href="pds_interceptors.htm#sthref163">Request Context Data Used to Handle Request Flow</a></li>
+<li><a href="pds_interceptors.htm#BCFIDFAF">Data Available for Modification</a></li>
+<li><a href="pds_interceptors.htm#i1118376">Specifying a Destination for the Request</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref166">Proceeding with the Request Flow</a></li>
+<li><a href="pds_interceptors.htm#sthref167">Returning the Request</a></li>
+<li><a href="pds_interceptors.htm#sthref168">Aborting the Request</a></li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#i1117003">Invoking the Next Service Interceptor to Handle the Request</a></li>
+<li><a href="pds_interceptors.htm#sthref169">Last Service Interceptor in the Chain</a></li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#i1114215">Understanding the Standard Interceptors</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref171">Locating the Standard Interceptors</a></li>
+<li><a href="pds_interceptors.htm#i1122276">Retry Functionality for plug-ins</a></li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#BABDEEAD">Interceptors.ear File</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#BABJCDAJ">File Contents</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#BCFFHBBD">Maintaining Interceptor Data Integrity</a></li>
+<li><a href="pds_interceptors.htm#sthref174">Location for All Standard Interceptor Classes</a></li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#BCFIEIFG">Config.xml File</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref175">Elements in Config.xml</a></li>
+<li><a href="pds_interceptors.htm#sthref177">Standard Interceptors in the MT_NORTH Section</a></li>
+<li><a href="pds_interceptors.htm#sthref178">Standard Interceptors in the MO_NORTH Section</a></li>
+<li><a href="pds_interceptors.htm#sthref179">Standard Interceptors in the MO_SOUTH Section</a></li>
+<li><a href="pds_interceptors.htm#sthref181">Standard Interceptors in the MT_SOUTH Section</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#BABCGCDF">Creating and Using Custom Interceptors</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref183">Understanding Custom Interceptors</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref184">How to Provide Your Custom Interceptors</a></li>
+<li><a href="pds_interceptors.htm#sthref185">Required Packages, Interfaces and Methods</a></li>
+<li><a href="pds_interceptors.htm#sthref186">Creating a Backup</a></li>
+<li><a href="pds_interceptors.htm#BABHDCFA">On Customer Interceptor Implementation</a></li>
+<li><a href="pds_interceptors.htm#sthref187">Testing the Custom Interceptor</a></li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#sthref188">Understanding the Example Interceptors</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref189">General Example</a></li>
+<li><a href="pds_interceptors.htm#sthref190">Interceptor that Extracts Context Data from RequestContext</a></li>
+<li><a href="pds_interceptors.htm#sthref191">Interceptor that Functions as a Black List for SMSs</a></li>
+<li><a href="pds_interceptors.htm#sthref193">Interceptor that Replaces a Word with a Variable String in an SMS</a></li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#BABFHJDJ">Using the Default EAR File to Add a Custom Interceptor</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref195">Developing the Custom Interceptor for Deployment</a></li>
+<li><a href="pds_interceptors.htm#BABEIDCI">Updating the Config.xml File</a></li>
+<li><a href="pds_interceptors.htm#BABJDFJI">Rebuilding the Interceptors.ear File</a></li>
+<li><a href="pds_interceptors.htm#sthref196">Re-deploying Common Interceptors. ear File</a></li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#BABJIBDH">Using a Custom EAR File to Add a Custom Interceptor</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref197">Points to Note</a></li>
+<li><a href="pds_interceptors.htm#sthref198">Steps to Build a Custom EAR for Use with a Custom Interceptor</a></li>
+<li><a href="pds_interceptors.htm#BABIJJAD">Information Needed to Register Custom Interceptors</a></li>
+<li><a href="pds_interceptors.htm#BABHIEAC">Creating a Custom Listener</a></li>
+<li><a href="pds_interceptors.htm#BABIHIJF">The Registration Process</a></li>
+<li><a href="pds_interceptors.htm#BABCEFGA">Building a Custom EAR File</a></li>
+<li><a href="pds_interceptors.htm#sthref201">Deploying Your Custom EAR File</a></li>
+<li><a href="pds_interceptors.htm#BABGDHII">Updating an Existing Custom EAR to Add Custom Interceptors</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#BABGEEGC">Customizing the Interceptor Chain for a Communication Service</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref202">Managing Custom Interceptor Filter Rules</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref203">Interceptor Rule Parameters</a></li>
+</ul>
+</li>
+<li><a href="pds_interceptors.htm#BCFBFAAE">Summary of Tasks Related to Interceptors</a>
+<ul style="list-style-type:none">
+<li><a href="pds_interceptors.htm#sthref205">Interceptor Rules</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_triggeringedr.htm#i1141212"><span class="secnum">11</span> Understanding Aspects, Annotations, EDRs, Alarms, and CDRs</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#CHDGEDBD">About Aspects and Annotations</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#CJGEFIBE">How Aspects are Applied</a></li>
+<li><a href="pds_triggeringedr.htm#CJGDIHJB">Understanding the Context Aspect</a></li>
+</ul>
+</li>
+<li><a href="pds_triggeringedr.htm#CJGDBAED">Generating EDRs from Communication Services</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#CJGFHFFI">EDR Exception Scenarios</a></li>
+<li><a href="pds_triggeringedr.htm#CJGEIJAD">Adding Data to an EDR</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#sthref213">Using translators</a></li>
+</ul>
+</li>
+<li><a href="pds_triggeringedr.htm#CJGCABDE">Triggering an EDR Programmatically</a></li>
+<li><a href="pds_triggeringedr.htm#CJGDAFJG">Understanding Communication Service EDR Content</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#CJGGCHIH">Using Send Lists</a></li>
+</ul>
+</li>
+<li><a href="pds_triggeringedr.htm#CJGDIIBD">RequestContext and EDR</a></li>
+</ul>
+</li>
+<li><a href="pds_triggeringedr.htm#CJGBDBDB">Categorizing EDRs</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#CJGIAHBG">Understanding EDR Descriptors</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#CJGGIDHE">Special characters</a></li>
+<li><a href="pds_triggeringedr.htm#sthref228">Values Provided</a></li>
+<li><a href="pds_triggeringedr.htm#sthref229">Boolean Semantic of the Filters</a></li>
+</ul>
+</li>
+<li><a href="pds_triggeringedr.htm#sthref231">Example EDR Filters</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#sthref232">Filtering EDRs by Plugin, Direction, and Execution Status</a></li>
+<li><a href="pds_triggeringedr.htm#sthref233">Categorizing EDRs as Alarms by PluginException, Name, Plugin Name, or Direction</a></li>
+<li><a href="pds_triggeringedr.htm#sthref234">Filtering Pure EDRs by Plugin Names and Attributes</a></li>
+<li><a href="pds_triggeringedr.htm#sthref235">Manually Triggering an EDR</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="pds_triggeringedr.htm#CJGBCEDD">Checklist for Aspect EDR generation</a></li>
+<li><a href="pds_triggeringedr.htm#sthref236">Frequently Asked Questions About EDRs and EDR Filters</a></li>
+<li><a href="pds_triggeringedr.htm#CJGDBDJI">Generating Alarms</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#CJGCFCCC">Triggering an Alarm Programmatically</a></li>
+<li><a href="pds_triggeringedr.htm#CJGDDEEF">Alarm Content</a></li>
+</ul>
+</li>
+<li><a href="pds_triggeringedr.htm#i1123667">Generating CDRs</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#CJGGCGID">Understanding the Default CDRs</a></li>
+<li><a href="pds_triggeringedr.htm#i1149995">Triggering a CDR</a></li>
+<li><a href="pds_triggeringedr.htm#i1130915">Triggering a CDR Programmatically</a></li>
+<li><a href="pds_triggeringedr.htm#i1129995">Understanding CDR Content</a>
+<ul style="list-style-type:none">
+<li><a href="pds_triggeringedr.htm#sthref243">Understanding the additional_info Database Column</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_subpolicy.htm#i1004749"><span class="secnum">12</span> Using SLA Policies to Manage Subscribers</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_subpolicy.htm#sthref246">About Using Policies to Manage Subscribers</a></li>
+<li><a href="pds_subpolicy.htm#i1005709">Service Classes and the Subscriber SLA</a>
+<ul style="list-style-type:none">
+<li><a href="pds_subpolicy.htm#i1000423">The &lt;reference&gt; element</a></li>
+<li><a href="pds_subpolicy.htm#i999736">The &lt;restriction&gt; element</a></li>
+<li><a href="pds_subpolicy.htm#sthref248">Managing the Subscriber SLA</a></li>
+</ul>
+</li>
+<li><a href="pds_subpolicy.htm#i1000586">The Profile Provider SPI and Subscriber Contracts</a>
+<ul style="list-style-type:none">
+<li><a href="pds_subpolicy.htm#sthref249">Deploying the Custom Profile Provider</a></li>
+</ul>
+</li>
+<li><a href="pds_subpolicy.htm#i999130">Subscriber Policy Enforcement</a>
+<ul style="list-style-type:none">
+<li><a href="pds_subpolicy.htm#i1001104">Do Relevant Subscriber Contracts Exist?</a></li>
+<li><a href="pds_subpolicy.htm#i1001115">Is There Adequate Budget for the Contracts?</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_customsla.htm#i1006529"><span class="secnum">13</span> Creating Custom Runtime SLAs</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_customsla.htm#i1005363">Introduction</a></li>
+<li><a href="pds_customsla.htm#i1005386">Custom SLAs and XSDs</a></li>
+<li><a href="pds_customsla.htm#i1005387">Custom SLA Enforcement</a>
+<ul style="list-style-type:none">
+<li><a href="pds_customsla.htm#i1005916">Get an SLA using a DOM Object</a></li>
+<li><a href="pds_customsla.htm#i1005897">Get an SLA using a Custom Parser</a></li>
+</ul>
+</li>
+<li><a href="pds_customsla.htm#i1006497">Example</a>
+<ul style="list-style-type:none">
+<li><a href="pds_customsla.htm#i1004726">Custom SLA Schema and Example SLA</a></li>
+<li><a href="pds_customsla.htm#i1004796">Enforcement Logic</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="pds_policy.htm#i1002572"><span class="secnum">14</span> Customizing SLA Behavior for a Service Provider or Application</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_policy.htm#i1002938">Understanding How to Customize Behavior Based on SLAs</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_customavp.htm#sthref253"><span class="secnum">15</span> Customizing Diameter AVPs</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_customavp.htm#sthref254">Understanding Customized Diameter AVPs</a></li>
+<li><a href="pds_customavp.htm#BABCEFIB">Configuring Customized AVPs for Parlay X 3.0 Payment/Diameter</a></li>
+<li><a href="pds_customavp.htm#CEGBBAEG">Configuring Customized AVPs for Credit Control Interceptor</a></li>
+<li><a href="pds_customavp.htm#CEGCHCFI">Configuring Customized AVPs for CDR Diameter Listener</a></li>
+<li><a href="pds_customavp.htm#CEGJIDGC">Dynamically Customizing AVPs for Applications</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_edrlistener.htm#i1114303"><span class="secnum">16</span> Creating EDR Listeners</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_edrlistener.htm#i1109382">Understanding External EDR Listeners</a>
+<ul style="list-style-type:none">
+<li><a href="pds_edrlistener.htm#i1121448">Example Using a Pure JMS Listener</a></li>
+<li><a href="pds_edrlistener.htm#i1121471">Example Using JMSListener Utility with No Filter</a></li>
+<li><a href="pds_edrlistener.htm#i1121757">Using JMSListener Utility with a Filter</a></li>
+</ul>
+</li>
+<li><a href="pds_edrlistener.htm#i1121241">Understanding an EDR listener utility</a>
+<ul style="list-style-type:none">
+<li><a href="pds_edrlistener.htm#i1121257">Class JMSListener</a></li>
+<li><a href="pds_edrlistener.htm#sthref262">Understanding the Helper JMSListener Helper Classes</a></li>
+</ul>
+</li>
+<li><a href="pds_edrlistener.htm#sthref264">Updating EDR configuration files</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_oam.htm#i1000348"><span class="secnum">17</span> Making Communication Services Manageable</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_oam.htm#sthref265">Understanding Communication Service Management</a></li>
+<li><a href="pds_oam.htm#sthref266">Create Standard JMX MBeans</a>
+<ul style="list-style-type:none">
+<li><a href="pds_oam.htm#i999695">Create an MBean Interface</a></li>
+<li><a href="pds_oam.htm#i1001972">Implement the MBean</a></li>
+<li><a href="pds_oam.htm#i1001973">Register the MBean with the Runtime MBean Server</a></li>
+</ul>
+</li>
+<li><a href="pds_oam.htm#i1002019">Use the Configuration Store to Persist Values</a></li>
+</ul>
+<h2 class="tocheader"><a href="pds_pte_project.htm#sthref270"><span class="secnum">18</span> Extending the ATE and PTE for Your Communication Services</a></h2>
+<ul style="list-style-type:none">
+<li><a href="pds_pte_project.htm#sthref271">Understanding ATE and PTE Extensions</a>
+<ul style="list-style-type:none">
+<li><a href="pds_pte_project.htm#sthref273">Generating a Custom Module Project Using the PDS Wizard</a></li>
+<li><a href="pds_pte_project.htm#sthref274">Understanding the Generated Project</a></li>
+<li><a href="pds_pte_project.htm#sthref275">Understanding the Generated Project Build File</a></li>
+<li><a href="pds_pte_project.htm#sthref276">Understanding the Generated Project Deployment Descriptor</a></li>
+</ul>
+</li>
+<li><a href="pds_pte_project.htm#sthref277">Building and Deploying the Module</a></li>
+<li><a href="pds_pte_project.htm#sthref278">Virtual Communication Service Module for the ATE</a></li>
+<li><a href="pds_pte_project.htm#sthref279">Client Module for the PTE</a></li>
+<li><a href="pds_pte_project.htm#sthref280">Simulator Module for the PTE</a></li>
+<li><a href="pds_pte_project.htm#sthref281">Virtual Communication Service Example</a></li>
+<li><a href="pds_pte_project.htm#sthref282">Client Module Example</a></li>
+<li><a href="pds_pte_project.htm#sthref283">Simulator Module Example</a></li>
+<li><a href="pds_pte_project.htm#sthref284">Stateless and Stateful Modules</a></li>
+<li><a href="pds_pte_project.htm#sthref285">Presenting Results</a></li>
+<li><a href="pds_pte_project.htm#sthref286">Presenting Statistics</a></li>
+<li><a href="pds_pte_project.htm#sthref287">Interacting With the Network Simulator Map</a></li>
+</ul>
+</div>
+<!-- class="ind" -->
+<!-- Start Footer -->
+</div>
+<!-- add extra wrapper close div-->
+<footer><!--
+<hr />
+<table class="cellalignment119">
+<tr>
+<td class="cellalignment128">
+<table class="cellalignment132">
+<tr>
+<td class="cellalignment123"><a href="title.htm"><img width="24" height="24" src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td class="cellalignment-copyrightlogo"><img width="144" height="18" src="../../dcommon/gifs/oracle.gif" alt="Oracle" /><br />
+Copyright&nbsp;&copy;&nbsp;2015, 2016,&nbsp;Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved.<br />
+<a href="../../dcommon/html/cpyr.htm">Legal Notices</a></td>
+<td class="cellalignment130">
+<table class="cellalignment131">
+<tr>
+<td class="cellalignment123"><a href="../../index.htm"><img width="24" height="24" src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" /><br />
+<span class="icon">Home</span></a></td>
+<td class="cellalignment123"><a href="../../dcommon/html/feedback.htm"><img width="24" height="24" src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" /><br />
+<span class="icon">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+--></footer>
+<noscript>
+<p>Scripting on this page enhances content navigation, but does not change the content in any way.</p>
+</noscript>
+</body>
+</html>

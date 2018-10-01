@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Communications Messaging Server MTA Developer's Reference - Contents</title>
+<meta name="generator" content="Oracle DARB XHTML Converter (Mode = document) - Merged Version 1093" />
+<meta name="dcterms.created" content="2017-10-03T2:24:24Z" />
+<meta name="robots" content="all" />
+<meta name="dcterms.title" content="Communications Messaging Server MTA Developer's Reference" />
+<meta name="dcterms.identifier" content="E74819-01" />
+<meta name="dcterms.isVersionOf" content="MSVDR" />
+<meta name="dcterms.rights" content="Copyright&nbsp;&copy;&nbsp;2017,&nbsp;Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved." />
+<link rel="Start" href="../../index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="../../dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+
+<script type="application/javascript"   src="../../dcommon/js/headfoot.js"></script>
+<script type="application/javascript"   src="../../nav/js/doccd.js"></script>
+<link rel="Next" href="title.htm" title="Next" type="text/html" />
+<link rel="alternate" href="../e74819.pdf" title="PDF version" type="application/pdf" />
+<link rel="alternate" href="../E74819-01.epub" title="ePub version" type="application/epub+zip" />
+<link rel="alternate" href="../E74819-01.mobi" title="Mobipocket version" type="application/x-mobipocket-ebook" />
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<link rel="stylesheet" href="../../dcommon/css/fusiondoc.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/header.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/footer.css">
+<link rel="stylesheet" type="text/css"  href="../../dcommon/css/fonts.css">
+<link rel="stylesheet" href="../../dcommon/css/foundation.css">
+<link rel="stylesheet" href="../../dcommon/css/codemirror.css">
+<link rel="stylesheet" type="text/css" title="Default" href="../../nav/css/html5.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-480-tablet.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-768-laptop.css">
+<link rel="stylesheet" href="../../dcommon/css/respond-1140-deskop.css">
+<script type="application/javascript"  src="../../dcommon/js/modernizr.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/codemirror.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/jquery.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/foundation.min.js"></script>
+<script type="application/javascript"  src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552992c80ef99c8d" async="async"></script>
+<script type="application/javascript"  src="../../dcommon/js/jqfns.js"></script>
+<script type="application/javascript"  src="../../dcommon/js/ohc-inline-videos.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="../../dcommon/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet"  href="../../dcommon/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet"  href="../../dcommon/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7"  type="text/css" media="screen" />
+<script type="application/javascript"  src="../../dcommon/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+<script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+<body>
+<a href="#BEGIN" class="accessibility-top skipto" tabindex="0">Go to main content</a><header><!--
+<div class="zz-skip-header"><a id="top" href="#BEGIN">Go to main content</a>--></header>
+<div class="row" id="CONTENT">
+<div class="IND large-9 medium-8 columns" dir="ltr">
+<a id="BEGIN" name="BEGIN"></a>
+<span id="PAGE" style="display:none;">1/12</span> <!-- End Header -->
+<h1 class="toc">Contents</h1>
+<h2 class="tocheader"><a href="title.htm">Title and Copyright Information</a></h2>
+<h2 class="tocheader"><a href="preface.htm#sthref2">Preface</a></h2>
+<ul style="list-style-type:none">
+<li><a href="preface.htm#sthref3">Audience</a></li>
+<li><a href="preface.htm#sthref4">Documentation Accessibility</a></li>
+<li><a href="preface.htm#sthref6">Related Documents</a></li>
+</ul>
+<h2 class="tocheader"><a href="msdr_sdk_concept.htm#CHDJEAFI"><span class="secnum">1</span> MTA SDK Concepts and Overview</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_concept.htm#BABIJIHF">Channel Programs and Message Queuing</a></li>
+<li><a href="msdr_sdk_concept.htm#BABEIHHJ">Managing Multiple Threads Using Contexts</a></li>
+<li><a href="msdr_sdk_concept.htm#CHDEEJBE">Enqueuing Messages</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_concept.htm#sthref7">Message Components</a></li>
+<li><a href="msdr_sdk_concept.htm#BABCDDIG">Threads and Enqueue Contexts</a></li>
+<li><a href="msdr_sdk_concept.htm#sthref8">Enqueuing Dequeued Mail</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_concept.htm#CHDHAECI">Dequeuing Messages</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_concept.htm#BABHBHID">Threads and Dequeue Contexts</a></li>
+<li><a href="msdr_sdk_concept.htm#sthref9">Message Processing Threads</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_concept.htm#CHDIGDGF">String-valued Call Arguments</a></li>
+<li><a href="msdr_sdk_concept.htm#CHDEBAHC">Item Codes and Item Lists</a></li>
+</ul>
+<h2 class="tocheader"><a href="msdr_sdk_prog_cons.htm#BABDHDDG"><span class="secnum">2</span> MTA SDK Programming Considerations</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_prog_cons.htm#BABGCJBA">Running Your Enqueue and Dequeue Programs</a></li>
+<li><a href="msdr_sdk_prog_cons.htm#BABJEJGE">Debugging Programs and Logging Diagnostics</a></li>
+<li><a href="msdr_sdk_prog_cons.htm#BABJDEBG">Required Privileges</a></li>
+<li><a href="msdr_sdk_prog_cons.htm#BABDAFEA">Compiling and Linking Programs</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_prog_cons.htm#sthref13">Compiling</a></li>
+<li><a href="msdr_sdk_prog_cons.htm#sthref14">Linking Instructions for Oracle Solaris</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_prog_cons.htm#BABDFBAH">Running Your Test Programs</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_prog_cons.htm#BABHCGJH">To Run Test Programs in a Messaging Environment</a></li>
+<li><a href="msdr_sdk_prog_cons.htm#BABFJIJD">To Manually Run Your Test Programs</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_prog_cons.htm#BABJFGJG">Preventing Mail Loops when Re-enqueuing Mail</a></li>
+<li><a href="msdr_sdk_prog_cons.htm#BABDHHDC">Miscellaneous Programming Considerations</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_prog_cons.htm#BABEAADG">Retrieving Error Codes</a></li>
+<li><a href="msdr_sdk_prog_cons.htm#BABEEGHI">Writing Output From a Channel Program</a></li>
+<li><a href="msdr_sdk_prog_cons.htm#BABDIBIB">Considerations for Persistent Programs</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="msdr_sdk_enqueuing_messages.htm#sthref15"><span class="secnum">3</span> Enqueuing Messages</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_enqueuing_messages.htm#sthref16">About Enqueing Messages</a></li>
+<li><a href="msdr_sdk_enqueuing_messages.htm#BABFEABA">Basic Steps to Enqueue Messages</a></li>
+<li><a href="msdr_sdk_enqueuing_messages.htm#BABIHAHG">Originating Messages</a></li>
+<li><a href="msdr_sdk_enqueuing_messages.htm#BABFEAEC">A Simple Example of Enqueuing a Message</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_enqueuing_messages.htm#BABECBFF">Enqueuing a Message Example Output</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_enqueuing_messages.htm#BABFBDJJ">Transferring Messages into the MTA</a></li>
+<li><a href="msdr_sdk_enqueuing_messages.htm#BABHEBHH">Intermediate Processing Channels</a></li>
+<li><a href="msdr_sdk_enqueuing_messages.htm#BABCCFGE">Delivery Processing Options (Envelope Fields)</a></li>
+<li><a href="msdr_sdk_enqueuing_messages.htm#BABECCBH">Order Dependencies</a></li>
+</ul>
+<h2 class="tocheader"><a href="msdr_sdk_dequeuing.htm#sthref20"><span class="secnum">4</span> Dequeuing Messages</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_dequeuing.htm#sthref21">About Dequeing Messages</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABIFHCA">How Dequeuing Works</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABJCHEF">Basic Dequeuing Steps</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABGJFGA">Caller-Supplied Processing Routine</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_dequeuing.htm#BABECHEG">Dequeue Message Processing Routine Tasks</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_dequeuing.htm#BABHHBJI">The process_message() Routine</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABFCBAG">A Simple Dequeuing Example</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_dequeuing.htm#BABJECII">Explanatory Text for Numbered Comments in the Simple Dequeue Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_dequeuing.htm#BABCCJHB">Processing the Message Queue</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABFGHDC">The process_done() Routine</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABFICCI">A Complex Dequeuing Example</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_dequeuing.htm#BABEAGGC">Explanatory Text for Numbered Comments in the Complex Dequeue Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_dequeuing.htm#BABBHHGG">Intermediate processing channels</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_dequeuing.htm#BABHAADH">Preserve Envelope Information</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABHFDJB">Use MTA_ENV_TO</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABEJJFC">Use Rewrite Rules to Prevent Message Loops</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_dequeuing.htm#BABEDCHC">Intermediate Channel Example</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_dequeuing.htm#BABJJBEI">Explanatory Text for Numbered Comments in the Intermediate Channel Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_dequeuing.htm#BABECAEA">Thread Creation Loop in mtaDequeueStart()</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABBAEHD">Multiple Calls to mtaDequeueStart()</a></li>
+<li><a href="msdr_sdk_dequeuing.htm#BABJGDCD">Calling Order Dependencies</a></li>
+</ul>
+<h2 class="tocheader"><a href="msdr_decoding.htm#CHDEBIFD"><span class="secnum">5</span> Decoding Messages</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_decoding.htm#BCGGJEBC">Usage Modes for mtaDecodeMessage()</a></li>
+<li><a href="msdr_decoding.htm#BCGBGHGF">The Input Source</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_decoding.htm#sthref26">Dequeue Context</a></li>
+</ul>
+</li>
+<li><a href="msdr_decoding.htm#BCGEHFDI">The Inspection Routine</a></li>
+<li><a href="msdr_decoding.htm#BCGCIBBG">A Simple Decoding Example</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_decoding.htm#BCGIDGHB">Explanatory Text for Numbered Comments in the Simple Decoding Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_decoding.htm#BCGHIIBI">The Output Destination</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_decoding.htm#sthref27">Enqueue Context</a></li>
+</ul>
+</li>
+<li><a href="msdr_decoding.htm#BCGEJAAB">Decode Contexts</a></li>
+<li><a href="msdr_decoding.htm#BCGEIFHD">A Simple Virus Scanner Example</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_decoding.htm#BCGHJBAF">Example Option File</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="msdr_sdk_ref.htm#CACEFCAA"><span class="secnum">6</span> MTA SDK Reference</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#CACJCGJA">Summary of SDK Routines</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#CACHGBII">Address Parsing</a></li>
+<li><a href="msdr_sdk_ref.htm#CACHFCJA">Dequeue</a></li>
+<li><a href="msdr_sdk_ref.htm#CACJIIFI">Enqueue</a></li>
+<li><a href="msdr_sdk_ref.htm#CACIGFJE">Error Handling</a></li>
+<li><a href="msdr_sdk_ref.htm#CACEFABG">Initialization</a></li>
+<li><a href="msdr_sdk_ref.htm#CACIJHFG">Logging and Diagnostics</a></li>
+<li><a href="msdr_sdk_ref.htm#CACIGJCF">MIME Parsing and Decoding</a></li>
+<li><a href="msdr_sdk_ref.htm#CACIGCJF">Miscellaneous</a></li>
+<li><a href="msdr_sdk_ref.htm#CACGGAIJ">Option File Processing</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACFADAG">MTA SDK Routines</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#CACDJBHD">mtaAccountingLogClose()</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref39">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref40">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref41">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref42">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref43">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACDHJHJ">mtaAddressFinish()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref44">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref45">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref47">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref48">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref49">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACBGDFH">mtaAddressGetN()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref50">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref51">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref53">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref54">Elements Argument</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref55">Address Argument</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref56">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref58">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACGHFGB">mtaAddressParse()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref59">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref60">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref62">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref64">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref66">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACJAHAG">mtaAddressToChannel()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref67">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref68">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref70">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref72">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref74">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACDBHEF">mtaBlockSize()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref75">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref76">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref77">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref78">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref80">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACJDEHH">mtaChannelGetName()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref81">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref82">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref84">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref85">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref87">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACFCHAA">mtaChannelToHost()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref88">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref89">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref91">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref93">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref95">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACFGGGC">mtaDateTime()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref96">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref97">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref99">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref100">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref102">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEDGBF">mtaDebug()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref103">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref104">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref106">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref108">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref111">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACIEJGJ">mtaDecodeMessage()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref112">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref113">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref115">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref121">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref124">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACHDFHA">mtaDecodeMessageInfoInt()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref125">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref126">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref128">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref130">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref132">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACBJIFC">mtaDecodeMessageInfoParams()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref133">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref134">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref136">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref138">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref140">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACJFBIJ">mtaDecodeMessageInfoString()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref141">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref142">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref144">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref146">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref148">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACGIHJG">mtaDecodeMessagePartCopy()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref149">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref150">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref152">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref153">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref155">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACDBIBE">mtaDecodeMessagePartDelete()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref156">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref157">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref159">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref161">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref163">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEFFAB">mtaDequeueInfo()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref164">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref165">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref167">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref169">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref171">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACIJCFF">mtaDequeueLineNext()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref172">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref173">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref175">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref176">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref178">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACIDFCC">mtaDequeueMessageFinish()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref179">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref180">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref182">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref184">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref186">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACBEADJ">mtaDequeueRecipientDisposition()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref187">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref188">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref190">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref193">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref195">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEFEBE">mtaDequeueRecipientNext()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref196">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref197">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref199">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref200">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref202">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACFJBIH">mtaDequeueRewind()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref203">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref204">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref206">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref207">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref209">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACCAAFI">mtaDequeueStart()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref210">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref211">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref213">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref215">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref217">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#sthref218">Other Considerations for mtaDequeueStart()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#CACCEEGJ">Multiple Calls to mtaDequeueStart()</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEABGB">mtaDequeueThreadId()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref221">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref222">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref224">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref225">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref228">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACDBAHD">mtaDone()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref229">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref230">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref231">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref232">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref233">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACIABJJ">mtaEnqueueCopyMessage()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref234">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref235">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref237">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref238">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref240">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACJFDGC">mtaEnqueueError()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref241">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref242">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref244">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref245">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref247">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACGCIAG">mtaEnqueueFinish()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref248">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref249">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref251">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref253">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref255">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACIDBHC">mtaEnqueueInfo()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref256">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref257">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref259">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref261">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref263">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#BABDDBGF">mtaEnqueueStart()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref264">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref265">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref267">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref269">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref271">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#BABDBEBI">mtaEnqueueTo()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref272">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref273">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#CACGEFGI">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref276">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref278">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACFHBDG">mtaEnqueueWrite()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref279">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref280">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref282">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref283">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref285">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEIIEE">mtaEnqueueWriteLine()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref286">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref287">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref289">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref290">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref292">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACBCDIC">mtaErrno()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref293">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref294">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref295">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref296">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref297">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACBDDJE">mtaInit()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref298">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref299">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref301">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref303">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref305">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEIAHI">mtaLog()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref306">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref307">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref309">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref310">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref311">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACHICIH">mtaLogv()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref312">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref313">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref315">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref316">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref317">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACIHJCJ">mtaOptionFinish()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref318">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref319">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref321">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref322">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref323">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACHIDDB">mtaOptionFloat()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref324">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref325">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref327">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref328">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref330">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACDEDAI">mtaOptionInt()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref331">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref332">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref334">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref335">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref337">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACFEFDE">mtaOptionStart()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref338">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref339">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref341">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref343">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref345">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACIDBBG">mtaOptionString()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref346">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref347">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref349">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref350">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref352">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACGFEEA">mtaPostmasterAddress()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref353">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref354">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref356">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref357">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref359">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEHDJJ">mtaStackSize()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref360">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref361">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref362">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref363">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref364">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEAADJ">mtaStrError()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref365">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref366">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref368">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref369">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref370">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACEBDAB">mtaUniqueString()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref371">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref372">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref374">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref375">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref377">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACBGDJB">mtaVersionMajor()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref378">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref379">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref380">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref381">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref382">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACBEBDB">mtaVersionMinor()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref383">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref384">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref385">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref386">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref387">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_ref.htm#CACJHAHD">mtaVersionRevision()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_ref.htm#sthref388">Syntax</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref389">Arguments</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref390">Description</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref391">Return Values</a></li>
+<li><a href="msdr_sdk_ref.htm#sthref392">Example</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="msdr_sdk_callable_send.htm#BEBICAGB"><span class="secnum">7</span> Using Callable Send mtaSend()</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_callable_send.htm#BEBCFEIH">Sending a Message</a></li>
+<li><a href="msdr_sdk_callable_send.htm#BEBDHJBD">Envelope and Header From Addresses</a></li>
+<li><a href="msdr_sdk_callable_send.htm#BEBHCBDF">To, Cc, and Bcc Addresses</a></li>
+<li><a href="msdr_sdk_callable_send.htm#BEBEIAHJ">Message Headers and Content</a></li>
+<li><a href="msdr_sdk_callable_send.htm#BEBHCJFJ">Required Privileges for mtaSend()</a></li>
+<li><a href="msdr_sdk_callable_send.htm#BEBGBAIB">mtaSendDispose()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_callable_send.htm#sthref393">Syntax</a></li>
+<li><a href="msdr_sdk_callable_send.htm#sthref394">Arguments</a></li>
+<li><a href="msdr_sdk_callable_send.htm#sthref396">Description</a></li>
+<li><a href="msdr_sdk_callable_send.htm#sthref397">Return Values</a></li>
+<li><a href="msdr_sdk_callable_send.htm#sthref398">Example</a></li>
+</ul>
+</li>
+<li><a href="msdr_sdk_callable_send.htm#BEBCEHAB">Compiling and Linking Programs</a></li>
+<li><a href="msdr_sdk_callable_send.htm#BEBJIJJC">Examples of Using mtaSend()</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_callable_send.htm#sthref399">Sending a Simple Message</a></li>
+<li><a href="msdr_sdk_callable_send.htm#sthref400">Example 2 Specifying an Initial Message Header</a></li>
+<li><a href="msdr_sdk_callable_send.htm#sthref401">Example 3 Sending a Message to Multiple Recipients</a></li>
+<li><a href="msdr_sdk_callable_send.htm#sthref402">Example 4 Using an Input Procedure to Generate the Message Body</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="msdr_sdk_routine_spec.htm#BCGEIFIC"><span class="secnum">8</span> mtaSend() Routine Specification</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_routine_spec.htm#BCGIIJIB">List of Item Codes</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGEACAJ">mtaSend() Syntax</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#sthref403">Arguments</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#sthref404">Item Descriptor Fields</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#sthref405">Description</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGHDDBI">Item Codes</a>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_routine_spec.htm#BCGEJEFC">MTA_ADR_NOSTATUS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCGCJH">MTA_ADR_STATUS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGEJDDE">MTA_BCC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFDGFC">MTA_BLANK</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGDEIHJ">MTA_CC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGICHJD">MTA_CHANNEL</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGDEECA">MTA_CFILENAME</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGHHFAC">MTA_CFILENAME_NONE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGBJHHE">MTA_CTYPE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGJEJHD">MTA_ENC_BASE64</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGIIHEG">MTA_ENC_BASE85</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGDDJCE">MTA_ENC_BINHEX</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFFADD">MTA_ENC_BTOA</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCCJBJ">MTA_ENC_COMPRESSED_BASE64</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGJCHJI">MTA_ENC_COMPRESSED_BINARY</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGDHBJF">MTA_ENC_COMPRESSED_UUENCODE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFHADH">MTA_ENC_HEXADECIMAL</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFJFIH">MTA_ENC_NONE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFIECH">MTA_ENC_PATHWORKS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGDFHGD">MTA_ENC_QUOTED_PRINTABLE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGBDHEE">MTA_ENC_UNKNOWN</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGBDFAE">MTA_ENC_UUENCODE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGJDADD">MTA_END_LIST</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGJJEBA">MTA_ENV_FROM</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGBAECI">MTA_ENV_TO</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGEEIIG">MTA_FRAGMENT_BLOCKS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFEDFG">MTA_FRAGMENT_LINES</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCCICB">MTA_FROM</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGGGCIJ">MTA_HDR_ADRS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGGGAFI">MTA_HDR_BCC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCAGBE">MTA_HDR_CC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGIDCBE">MTA_HDR_FILE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGECJHC">MTA_HDR_LINE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGHCEFD">MTA_HDR_NOADRS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGDFIBG">MTA_HDR_NORESENT</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGGCGHB">MTA_HDR_PROC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFFAGA">MTA_HDR_RESENT</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCCGHD">MTA_HDR_TO</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGDGBGI">MTA_HDRMSG_FILE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGEAJIG">MTA_HDRMSG_PROC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGDDGCC">MTA_IGNORE_ERRORS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGBGIDH">MTA_INTERACTIVE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCAIII">MTA_ITEM_LIST</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCBIDG">MTA_MAX_TO</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGJIEFG">MTA_MODE_BINARY</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGGBBJJ">MTA_MODE_TEXT</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGIEHJF">MTA_MSG_FILE</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFAJAE">MTA_MSG_PROC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGJEIGC">MTA_NOBLANK</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGHBCGD">MTA_NOIGNORE_ERRORS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGFGJJC">MTA_PRIV_DISABLE_PROC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGEGEJA">MTA_PRIV_ENABLE_PROC</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGHBGFE">MTA_SUBADDRESS</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCACAG">MTA_SUBJECT</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGBFJEE">MTA_TO</a></li>
+<li><a href="msdr_sdk_routine_spec.htm#BCGCIAFJ">MTA_USER</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="tocheader"><a href="msdr_sdk_error_status.htm#CJAJJAAE"><span class="secnum">9</span> Error Status Codes Summary</a></h2>
+<ul style="list-style-type:none">
+<li><a href="msdr_sdk_error_status.htm#sthref406">Error Status Codes</a></li>
+</ul>
+</div>
+<!-- class="ind" -->
+<!-- Start Footer -->
+</div>
+<!-- add extra wrapper close div-->
+<footer><!--
+<hr />
+<table class="cellalignment57">
+<tr>
+<td class="cellalignment66">
+<table class="cellalignment62">
+<tr>
+<td class="cellalignment61"><a href="title.htm"><img width="24" height="24" src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td class="cellalignment-copyrightlogo"><img width="144" height="18" src="../../dcommon/gifs/oracle.gif" alt="Oracle" /><br />
+Copyright&nbsp;&copy;&nbsp;2017,&nbsp;Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved.<br />
+<a href="../../dcommon/html/cpyr.htm">Legal Notices</a></td>
+<td class="cellalignment68">
+<table class="cellalignment70">
+<tr>
+<td class="cellalignment61"><a href="../../index.htm"><img width="24" height="24" src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" /><br />
+<span class="icon">Home</span></a></td>
+<td class="cellalignment61"><a href="../../dcommon/html/feedback.htm"><img width="24" height="24" src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" /><br />
+<span class="icon">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+--></footer>
+<noscript>
+<p>Scripting on this page enhances content navigation, but does not change the content in any way.</p>
+</noscript>
+</body>
+</html>
